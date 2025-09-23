@@ -1,7 +1,41 @@
 preguntas=new Array();
 respuestas=new Array();
 n=0;
-preguntas[n]='¿Cuál es la capital de España?';respuestas[n]='Madrid';n++;
-preguntas[n]='Mensaje emergente Hola';respuestas[n]='alert("Hola")';n++;
-preguntas[n]='Pedir un número (variable a)';respuestas[n]='a=1*prompt("Dime un número")';n++;
-preguntas[n]='Preguntar cómo te llamas (variable nombre)';respuestas[n]='nombre=prompt("¿Cómo te llamas?")';n++;
+
+preguntas[n]='Mensaje en ventana emergente <b>Hola</b>';respuestas[n]='alert("Hola")';n++;
+preguntas[n]='Solicitar un texto en variable <b>nombre</b>: Dime tu nombre</b>';respuestas[n]='nombre=prompt("Dime tu nombre")';n++;
+preguntas[n]='Repetir línea anterior con valor predeterminado <b>Ana</b>';respuestas[n]='nombre=prompt("Dime tu nombre","Ana")';n++;
+preguntas[n]='Solicitar un número en variable <b>a</b>: Dime un número';respuestas[n]='a=1*prompt("Dime un número")';n++;
+preguntas[n]='Mostrar en ventana emergente el valor de la variable anterior';respuestas[n]='alert(a)';n++;
+preguntas[n]='Repetir línea anterior anteponiendo el texto <b>El número es</b>';respuestas[n]='alert("El número es "+a)';n++;
+preguntas[n]='¿Qué muestra lo anterior si el valor introducido en <b>a</b> no es numérico?';respuestas[n]='NaN';n++;
+preguntas[n]='¿Qué significa lo escrito en la respuesta anterior?';respuestas[n]='Not a Number';n++;
+preguntas[n]='Caracteres para comentar una sola línea';respuestas[n]='//';n++;
+preguntas[n]='Caracteres para iniciar un comentario de varias líneas';respuestas[n]='/*';n++;
+preguntas[n]='Caracteres para finalizar un comentario de varias líneas';respuestas[n]='*/';n++;
+preguntas[n]='Operador suma (si son números) y encadenamiento (si son textos)';respuestas[n]='+';n++;
+preguntas[n]='Si a y b son números ¿Es lo mismo <b>c=a+b</b> que <b>c=b+a</b> ? (Piensa por qué)';respuestas[n]='Sí';n++;
+preguntas[n]='¿Y si no son valores numéricos? (textos)(Piensa por qué';respuestas[n]='No';n++;
+preguntas[n]='Operador resta';respuestas[n]='-';n++;
+preguntas[n]='El operador anterior ¿Tiene la propiedad conmutativa?';respuestas[n]='No';n++;
+preguntas[n]='Operador producto (multiplicación)';respuestas[n]='*';n++;
+preguntas[n]='El operador anterior ¿Tiene la propiedad conmutativa?';respuestas[n]='Sí';n++;
+preguntas[n]='Operador división exacta (pueden salir decimales)';respuestas[n]='/';n++;
+preguntas[n]='El operador anterior ¿Tiene la propiedad conmutativa?';respuestas[n]='No';n++;
+preguntas[n]='Operador potencia';respuestas[n]='**';n++;
+preguntas[n]='El operador anterior ¿Tiene la propiedad conmutativa?';respuestas[n]='No';n++;
+preguntas[n]='Operador resto de división entera';respuestas[n]='%';n++;
+preguntas[n]='El operador anterior ¿Tiene la propiedad conmutativa?';respuestas[n]='No';n++;
+preguntas[n]='De todos los operadores mencionados ¿Cuál es el único que nunca devuelve NaN? (Piensa por qué)';respuestas[n]='+';n++;
+/*
+preguntas[n]='';respuestas[n]='';n++;
+preguntas[n]='';respuestas[n]='';n++;
+preguntas[n]='';respuestas[n]='';n++;
+preguntas[n]='';respuestas[n]='';n++;
+preguntas[n]='';respuestas[n]='';n++;
+preguntas[n]='';respuestas[n]='';n++;
+preguntas[n]='';respuestas[n]='';n++;
+preguntas[n]='';respuestas[n]='';n++;
+preguntas[n]='';respuestas[n]='';n++;
+preguntas[n]='';respuestas[n]='';n++;
+*/
