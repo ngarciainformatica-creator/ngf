@@ -1,3 +1,4 @@
+nombre="Natalio"; //Esto es una prueba
 preguntas=new Array();
 respuestas=new Array();
 n=0;
