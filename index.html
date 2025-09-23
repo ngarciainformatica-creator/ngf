@@ -1,5 +1,10 @@
 <script src="cuestiones01.src"> <!Hay un array llamado preguntas y otro llamado respuestas, ambos de longitud n>
 <script>
+	funtion inicio()
+		{
+			alert("Iniciando");
+			alert("Las preguntas son:\n"+preguntas);
+		}
 	function ejecutar(x)
 		{
 		alert("Funcionaaaa")
@@ -10,10 +15,11 @@
 		}
 </script>
 
-<body id=cuerpo style="background:pink;margin:20;">
+<body id=cuerpo style="background:pink;margin:20;" onload="inicio()">
 Hola
 <input type=button value="Haz clic" onclick=ejecutar(this)>
 </body>
+
 
 
 
