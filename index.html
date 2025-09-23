@@ -5,9 +5,15 @@
 <script>
 	function inicio()
 		{
-			alert("Iniciando"); //Funciona
-			alert("Se reconoce el valor "+n+"(Cantidad de preguntas)"); //Funciona
-			alert("Las preguntas son:\n"+preguntas); //Funciona
+			//alert("Iniciando"); //Funciona
+			//alert("Se reconoce el valor "+n+" (Cantidad de preguntas)"); //Funciona
+			//alert("Las preguntas son:\n"+preguntas); //Funciona
+			document.write("Apellidos y Nombre: <input type=text id=nombre style='width:200' value='Natalio García Feito'>")
+			
+			if(nombre.length<15){document.write("Nombre demasiado corto");exit;}
+
+			//Código para validar exactamente el nombre o terminar
+			nombre.disbaled=true;
 		}
 	function ejecutar(x)
 		{
@@ -23,6 +29,7 @@
 Hola qué tal
 <input type=button value="Haz clic" onclick=ejecutar(this)>
 </body>
+
 
 
 
