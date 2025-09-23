@@ -14,7 +14,7 @@
 			document.write("input[type=text]{width:250;font-family:Courier New;}")
 			document.write("</style>")
 			document.write("<body id=cuerpo>")
-			document.write("Apellidos y Nombre: <input type=text id=cajaNombre style='width:200' value='Natalio García Feito'>");
+			document.write("Apellidos y Nombre: <input type=text id=cajaNombre style='width:200' value=''>");
 			document.write(" <input type=button id=cajaValidar value='Validar' onclick='validar()'>");
 		}
 	//----------------------------------------------
@@ -29,7 +29,7 @@
 		cajaNombre.disabled=true;
 		cajaValidar.disabled=true;
 		document.write("<br><br>Nombre correcto ");
-		document.write("<input type=button id=cajaContinuar value='Continuar' onclick='continuar()'>");
+		document.write("<input type=button id=cajaContinuar value='Continuar' onclick='continuar()'> <br>");
 		contador=0; //Iniciamos contador de preguntas formuladas, inicialmente cero
 		correctas=0; //Parecido al anterior, nº de respuestas correctas
 		}
@@ -38,13 +38,15 @@
 		{
 		//alert("Continuando..."); //Funciona
 		cajaContinuar.disabled=true;
-		document.write(" <b>"+nombre+"</b> <br>");
+		//document.write(" <b>"+nombre+"</b> <br>");
+		//document.write("<br>")
 		//alert(contador) //Funciona
 		//alert(n) //Funciona
 		if(contador==n)
 			{
 			//alert("No hay más preguntas");
 			document.write("<br> <b>TODO CORRECTO - BUEN TRABAJO</b> <br>");
+			document.write("Realizado por <b>"+nombre+"</b>");
 			cuerpo.style.background="#C7FFF2"; //Celeste cuando todo correcto
 			}
 		else
@@ -87,7 +89,6 @@
 <body onload="inicio()">
 	<!Todo se procesa en Javascript>
 </body>
-
 
 
 
