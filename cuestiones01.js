@@ -33,8 +33,8 @@ preguntas[n]='Expresa la condición <b>Si a es menor que b </b>';respuestas[n]='
 preguntas[n]='Expresa la condición <b>Si a es menor o igual que b </b>';respuestas[n]='if(a<=b)';n++;
 preguntas[n]='Expresa la condición <b>Si a es distinto de b </b>';respuestas[n]='if(a!=b)';n++;
 preguntas[n]='Expresa la condición <b>Si a es igual que b </b> (Cuidado)';respuestas[n]='if(a==b)';n++;
-preguntas[n]='Escribe en Javascript <b>Si a es mayor o igual que cero: Mostrar texto emergente "Positivo"</b>';respuestas[n]='';n++;
-preguntas[n]='Escribe en Javascript <b>Si el valor de a es 10: Mostrar texto emergente "Matrícula de honor"</b>';respuestas[n]='';n++;
+preguntas[n]='Escribe en Javascript <b>Si a es mayor o igual que cero: Mostrar texto emergente "Positivo"</b>';respuestas[n]='if(a>=0) alert("Positivo")';n++;
+preguntas[n]='Escribe en Javascript <b>Si el valor de a es 10: Mostrar texto emergente "Matrícula de honor"</b>';respuestas[n]='if(a==10) alert("Matrícula de honor")';n++;
 /*
 preguntas[n]='';respuestas[n]='';n++;
 preguntas[n]='';respuestas[n]='';n++;
