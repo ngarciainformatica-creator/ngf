@@ -23,10 +23,12 @@
 		{
 		//alert("Validando nombre..."); //Funciona
 		nombre=cajaNombre.value //Usamos variable
+		nombre=nombre.trim()
 		
 		if(nombre.length<14)
 			{document.write("<br><br>Nombre demasiado corto");exit;}
 		//Añadir código para validar exactamente el nombre o terminar
+		cajaNombre.value=nombre; //Ya sin espacios laterales
 		cajaNombre.disabled=true;
 		cajaValidar.disabled=true;
 		document.write("<br><br>Nombre correcto ");
@@ -66,11 +68,12 @@
 		//alert(tusRespuestas.length) //Funciona
 		//alert(tusRespuestas[contador].value); //Funciona
 		//alert(respuestas[contador]); //Funciona
-		if(tusRespuestas[contador].value==respuestas[contador]) //Son dos arrays, recuerda
+		if(tusRespuestas[contador].value.trim()==respuestas[contador]) //Son dos arrays, recuerda
 			{
 			//alert("Muy bien");
 			correctas=contador+1; //Necesario para mostrar nº de respuestas acertadas en el mensaje siguiente
 			document.write("CORRECTO - "+correctas+" respuestas de "+n+"<br>");
+			tusRespuestas[contador].value=tusRespuestas[contador].value.trim() //Ya sin espacios laterales
 			tusRespuestas[contador].style.background="white";
 			tusRespuestas[contador].disabled=true;
 			tusBotones[contador].disabled=true;
@@ -90,6 +93,7 @@
 <body onload="inicio()">
 	<!Todo se procesa en Javascript>
 </body>
+
 
 
 
