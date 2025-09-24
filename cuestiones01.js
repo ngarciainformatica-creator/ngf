@@ -26,7 +26,13 @@ preguntas[n]='Operador potencia';respuestas[n]='**';n++;
 preguntas[n]='El operador anterior ¿Tiene la propiedad conmutativa?';respuestas[n]='No';n++;
 preguntas[n]='Operador resto de división entera';respuestas[n]='%';n++;
 preguntas[n]='El operador anterior ¿Tiene la propiedad conmutativa?';respuestas[n]='No';n++;
-preguntas[n]='De todos los operadores mencionados ¿Cuál es el único que nunca devuelve NaN? (Piensa por qué)';respuestas[n]='+';n++;
+preguntas[n]='De todos los operadores aritméticos (+ - * / ** %) ¿Cuál es el único que nunca devuelve NaN? (Piensa por qué)';respuestas[n]='+';n++;
+preguntas[n]='Expresa la condición "Si a es mayor que b"';respuestas[n]='if(a>b)';n++;
+preguntas[n]='Expresa la condición "Si a es mayor o igual que b"';respuestas[n]='if(a>=b)';n++;
+preguntas[n]='Expresa la condición "Si a es menor que b"';respuestas[n]='if(a<b)';n++;
+preguntas[n]='Expresa la condición "Si a es menor o igual que b"';respuestas[n]='if(a<=b)';n++;
+preguntas[n]='Expresa la condición "Si a es distinto de b"';respuestas[n]='if(a!=b)';n++;
+preguntas[n]='Expresa la condición "Si a es igual que b" (Cuidado)';respuestas[n]='if(a==b)';n++;
 /*
 preguntas[n]='';respuestas[n]='';n++;
 preguntas[n]='';respuestas[n]='';n++;
