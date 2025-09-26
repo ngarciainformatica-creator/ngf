@@ -1,1 +1,95 @@
-<body>¿Esto funciona?</body>
+<meta charset="utf-8">
+
+<script src="cuestiones01.js"> </script>
+
+<!Hay un array llamado preguntas y otro llamado respuestas, ambos de longitud n>
+<script>
+	function inicio()
+		{
+			//alert("Iniciando"); //Funciona
+			//alert("Se reconoce el valor "+n+" (Cantidad de preguntas)"); //Funciona
+			//alert("Las preguntas son:\n"+preguntas); //Funciona
+			document.write("<style>")
+			document.write("body{background:lightgreen;margin:20;}")
+			document.write("input[type=text]{width:250;font-family:Courier New;}")
+			document.write("</style>")
+			document.write("<body id=cuerpo>")
+			document.write("<b>EJERCICIOS - RELACIÓN Nº 1</b><br><br>")
+			document.write("Apellidos y Nombre: <input type=text id=cajaNombre style='width:200' value=''>");
+			document.write(" <input type=button id=cajaValidar value='Validar' onclick='validar()'>");
+		}
+	//----------------------------------------------
+	function validar()
+		{
+		//alert("Validando nombre..."); //Funciona
+		nombre=cajaNombre.value //Usamos variable
+		nombre=nombre.trim()
+		
+		if(nombre.length<14)
+			{document.write("<br><br>Nombre demasiado corto");exit;}
+		//Añadir código para validar exactamente el nombre o terminar
+		cajaNombre.value=nombre; //Ya sin espacios laterales
+		cajaNombre.disabled=true;
+		cajaValidar.disabled=true;
+		document.write("<br><br>Nombre correcto ");
+		document.write("<input type=button id=cajaContinuar value='Continuar' onclick='continuar()'> <br>");
+		contador=0; //Iniciamos contador de preguntas formuladas, inicialmente cero
+		correctas=0; //Parecido al anterior, nº de respuestas correctas
+		}
+	//----------------------------------------------
+	function continuar()
+		{
+		//alert("Continuando..."); //Funciona
+		cajaContinuar.disabled=true;
+		//document.write(" <b>"+nombre+"</b> <br>");
+		//document.write("<br>")
+		//alert(contador) //Funciona
+		//alert(n) //Funciona
+		if(contador==n)
+			{
+			//alert("No hay más preguntas");
+			document.write("<br> <b>TODO CORRECTO - BUEN TRABAJO</b> <br>");
+			document.write("Realizado por <b>"+nombre+"</b>");
+			cuerpo.style.background="#C7FFF2"; //Celeste cuando todo correcto
+			}
+		else
+			{
+			document.write("<br>"+preguntas[contador]+" "); 
+			document.write("<input type=text class=cajasRespuesta> ");
+			document.write("<input type=button class=botonesComprobar value='Comprobar' onclick='comprobar()'> ");
+			}
+		}
+	//----------------------------------------------
+	function comprobar(x)
+		{
+		//alert("Comprobando...") //Funciona
+		tusRespuestas=document.querySelectorAll(".cajasRespuesta");
+		tusBotones=document.querySelectorAll(".botonesComprobar");
+		//alert(tusRespuestas.length) //Funciona
+		//alert(tusRespuestas[contador].value); //Funciona
+		//alert(respuestas[contador]); //Funciona
+		if(tusRespuestas[contador].value.trim()==respuestas[contador]) //Son dos arrays, recuerda
+			{
+			//alert("Muy bien");
+			correctas=contador+1; //Necesario para mostrar nº de respuestas acertadas en el mensaje siguiente
+			document.write("CORRECTO - "+correctas+" respuestas de "+n+"<br>");
+			tusRespuestas[contador].value=tusRespuestas[contador].value.trim() //Ya sin espacios laterales
+			tusRespuestas[contador].style.background="white";
+			tusRespuestas[contador].disabled=true;
+			tusBotones[contador].disabled=true;
+			contador++;
+			continuar();
+			}
+		else
+			{
+			//alert("Mal");
+			tusRespuestas[contador].style.background="pink";
+			}
+		}
+	//----------------------------------------------
+	
+</script>
+
+<body onload="inicio()">
+	<!Todo se procesa en Javascript>
+</body>
