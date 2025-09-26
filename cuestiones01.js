@@ -35,6 +35,11 @@ preguntas[n]='Expresa la condición <b>Si a es distinto de b </b>';respuestas[n]
 preguntas[n]='Expresa la condición <b>Si a es igual que b </b> (Cuidado)';respuestas[n]='if(a==b)';n++;
 preguntas[n]='Escribe en Javascript <b>Si a es mayor o igual que cero: Mostrar texto emergente "Positivo"</b>';respuestas[n]='if(a>=0) alert("Positivo")';n++;
 preguntas[n]='Escribe en Javascript <b>Si el valor de a es 10: Mostrar texto emergente "Matrícula de honor"</b>';respuestas[n]='if(a==10) alert("Matrícula de honor")';n++;
+preguntas[n]='<b>Programa sencillo:</b> Hallar si un número n es par o impar<br> Línea 1: Pedir un número n (Dime un número)';respuestas[n]='n=1*prompt("Dime un número")';n++;
+preguntas[n]='Línea 2: Hallar <b>resto</b> de la división de n entre 2';respuestas[n]='resto=n%2';n++;
+preguntas[n]='Línea 3: Si el resto es cero Mostrar <b>Par</b>';respuestas[n]='if(resto==0) alert("Par")';n++;
+preguntas[n]='Línea 4: En caso contrario Mostrar <b>Impar</b>';respuestas[n]='else alert("Impar")';n++;
+preguntas[n]='Línea 5: Mensaje final <b>Hasta luego</b>';respuestas[n]='alert("Hasta luego")';n++;
 /*
 preguntas[n]='';respuestas[n]='';n++;
 preguntas[n]='';respuestas[n]='';n++;
