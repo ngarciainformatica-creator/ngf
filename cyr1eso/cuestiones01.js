@@ -5,7 +5,7 @@ preguntas=new Array();
 respuestas=new Array();
 n=0;
 
-preguntas[n]='<b>EJERCICIOS DE CÓDIGO JAVASCRIPT<br><br><br>PROGRAMA 1<br><br></b>Mensaje <b>Hola</b>';respuestas[n]='alert("Hola")';n++;
+preguntas[n]='<b>EJERCICIOS DE CÓDIGO JAVASCRIPT</b><br><br><br><b>PROGRAMA 1</b><br><br>Mensaje <b>Hola</b>';respuestas[n]='alert("Hola")';n++;
 preguntas[n]='Pedir un número en variable <b>a</b> (Dime un número)';respuestas[n]='a=1*prompt("Dime un número")';n++;
 preguntas[n]='Pedir otro número en variable <b>b</b> (Dime otro número)';respuestas[n]='b=1*prompt("Dime otro número")';n++;
 preguntas[n]='Hallar la suma de los dos números en una variable <b>c</b>';respuestas[n]='c=a+b';n++;
