@@ -23,7 +23,7 @@ preguntas[n]='Mostrar el valor de la media';respuestas[n]='alert(media)';n++;
 preguntas[n]='¿Cuántos datos de entrada tiene este programa?';respuestas[n]='3';n++;
 preguntas[n]='¿Cuántos resultados (datos de salida) tiene este programa?';respuestas[n]='1';n++;
 
-preguntas[n]='<b><br><br>PROGRAMA 3<br><br></b>Pedir un número x <b>a</b> (Dime un número)';respuestas[n]='x=1*prompt("Dime un número")';n++;
+preguntas[n]='<b><br><br>PROGRAMA 3<br><br></b>Pedir un número <b>x</b> (Dime un número)';respuestas[n]='x=1*prompt("Dime un número")';n++;
 preguntas[n]='Hallar el doble de x en una variable <b>y</b>';respuestas[n]='y=2*x';n++;
 preguntas[n]='Mostrar el valor de y';respuestas[n]='alert(y)';n++;
 preguntas[n]='Hallar el triple de x en una variable <b>z</b>';respuestas[n]='z=3*x';n++;
