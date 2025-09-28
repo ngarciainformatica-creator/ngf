@@ -30,6 +30,10 @@ preguntas[n]='Hallar el triple de x en una variable <b>z</b>';respuestas[n]='z=3
 preguntas[n]='Mostrar el valor de z';respuestas[n]='alert(z)';n++;
 preguntas[n]='¿Cuántos datos de entrada tiene este programa?';respuestas[n]='1';n++;
 preguntas[n]='¿Cuántos resultados (datos de salida) tiene este programa?';respuestas[n]='2';n++;
+preguntas[n]='Si ejecutas este programa con el dato de entrada <b>4</b> ¿Cuál es el primer resultado que muestra?';respuestas[n]='8';n++;
+preguntas[n]='¿Y el segundo resultado?';respuestas[n]='12';n++;
+preguntas[n]='Si ejecutas este programa con el dato de entrada <b>7</b> ¿Cuál es el primer resultado que muestra?';respuestas[n]='14';n++;
+preguntas[n]='¿Y el segundo resultado?';respuestas[n]='21';n++;
 
 /*
 preguntas[n]='';respuestas[n]='';n++;
