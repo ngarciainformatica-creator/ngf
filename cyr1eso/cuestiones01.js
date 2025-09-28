@@ -11,7 +11,8 @@ preguntas[n]='Pedir otro número en variable <b>b</b> (Dime un número)';respues
 preguntas[n]='Hallar la suma de los dos números en una variable <b>c</b>';respuestas[n]='c=a+b';n++;
 preguntas[n]='Mostrar el valor de c';respuestas[n]='alert(c)';n++;
 preguntas[n]='Mensaje <b>Hasta luego</b>';respuestas[n]='alert("Hasta luego")';n++;
-preguntas[n]='';respuestas[n]='';n++;
+
+
 
 /*
 preguntas[n]='';respuestas[n]='';n++;
