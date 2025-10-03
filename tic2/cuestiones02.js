@@ -1,4 +1,8 @@
+relacion=2; // Para mostrar al principio de la página: Relación nº...
 
+preguntas=new Array();
+respuestas=new Array();
+n=0;
 
 preguntas[n]='Código de la Línea 1 ';respuestas[n]='a=1*entrada1.value';n++;
 preguntas[n]='Código de la Línea 2 ';respuestas[n]='b=1*entrada2.value';n++;
