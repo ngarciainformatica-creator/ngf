@@ -24,6 +24,8 @@ preguntas[n]='¿Cuántas variables JS se utilizan en esta función? ';respuestas
 preguntas[n]='¿Cuál de ellas cambia de valor durante la ejecución de esta función? ';respuestas[n]='c';n++;
 preguntas[n]='¿Cuál es la función de JS que devuelve la parte entera (si decimales) de un número? ';respuestas[n]='parseInt()';n++;
 preguntas[n]='¿Cuántos parámetros tiene dicha función? (La mencionada en la cuestión anterior) ';respuestas[n]='1';n++;
+
+
 preguntas[n]='Código de la Línea 1 ';respuestas[n]='salida1.value=""';n++;
 preguntas[n]='Código de la Línea 2 ';respuestas[n]='salida2.value=""';n++;
 preguntas[n]='Código de la Línea 3 ';respuestas[n]='salida3.value=""';n++;
@@ -31,6 +33,8 @@ preguntas[n]='Código de la Línea 4 ';respuestas[n]='salida4.value=""';n++;
 preguntas[n]='Código de la Línea 5 ';respuestas[n]='salida5.value=""';n++;
 preguntas[n]='Código de la Línea 6 ';respuestas[n]='salida6.value=""';n++;
 preguntas[n]='Código de la Línea 7 ';respuestas[n]='salida7.value=""';n++;
+
+
 preguntas[n]='Código de la Línea 1 ';respuestas[n]='entrada1.value=""';n++;
 preguntas[n]='Código de la Línea 2 ';respuestas[n]='entrada2.value=""';n++;
 preguntas[n]='Código de la Línea 3 ';respuestas[n]='borrarResultados()';n++;
@@ -41,6 +45,8 @@ preguntas[n]='Modifica la línea 1 para que genere un número aleatorio entre 0 
 preguntas[n]='Tras la modificación anterior ¿se genera un número entero? ';respuestas[n]='No';n++;
 preguntas[n]='Modifica la línea 1 para que genere un número ENTERO (sin decimales) aleatorio entre 0 y 100 ';respuestas[n]='entrada1.value=parseInt(100*Math.random())';n++;
 preguntas[n]='¿Cuántos parámetros tiene la función Math.random() ? ';respuestas[n]='0';n++;
+
+
 preguntas[n]='¿Cuál es el evento HTML para ejecutar código JS al hacer clic sobre un objeto? (Normalmente de un botón) ';respuestas[n]='onclick';n++;
 preguntas[n]='¿Cuál es el evento HTML para ejecutar código JS que se ejecuta cada vez que el valor de un dato de entrada se cambia? ';respuestas[n]='onchange';n++;
 preguntas[n]='¿Qué propiedad permite establecer que el valor de un objeto de salida sólo pueda ser leído (pero no modificado) por el cliente? ';respuestas[n]='readonly';n++;
