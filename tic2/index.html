@@ -1,60 +1,96 @@
-relacion=2; // Para mostrar al principio de la página: Relación nº...
+<meta charset="utf-8">
 
-preguntas=new Array();
-respuestas=new Array();
-n=0;
+<script src="cuestiones.js"> </script>
+<!Siempre lo llamaremos así al archivo actual de cuestiones>
 
-texto='ESTE CUESTIONARIO ES RELATIVO A LOS EJERCICIOS SOBRE EL ARCHIVO <b>plantilla02.html</b><br>';
-texto=texto+'(Realizados durante la clase del lunes 6 de octubre)<br><br>';
+<!Hay un array llamado preguntas y otro llamado respuestas, ambos de longitud n>
+<script>
+	function inicio()
+		{
+			//alert("Iniciando"); //Funciona
+			//alert("Se reconoce el valor "+n+" (Cantidad de preguntas)"); //Funciona
+			//alert("Las preguntas son:\n"+preguntas); //Funciona
+			document.write("<style>")
+			document.write("body{background:lightyellow;margin:20;}")
+			document.write("input[type=text]{width:250;font-family:Courier New;}")
+			document.write("</style>")
+			document.write("<body id=cuerpo>")
+			document.write("<b>TIC 2º - EJERCICIOS - RELACIÓN Nº "+relacion+"</b><br><br>")
+			document.write("Apellidos y Nombre: <input type=text id=cajaNombre style='width:200' value=''>");
+			document.write(" <input type=button id=cajaValidar value='Validar' onclick='validar()'>");
+		}
+	//----------------------------------------------
+	function validar()
+		{
+		//alert("Validando nombre..."); //Funciona
+		nombre=cajaNombre.value //Usamos variable
+		nombre=nombre.trim()
+		
+		if(nombre.length<14)
+			{document.write("<br><br>Nombre demasiado corto");exit;}
+		//Añadir código para validar exactamente el nombre o terminar
+		cajaNombre.value=nombre; //Ya sin espacios laterales
+		cajaNombre.disabled=true;
+		cajaValidar.disabled=true;
+		document.write("<br><br>Nombre correcto ");
+		document.write("<input type=button id=cajaContinuar value='Continuar' onclick='continuar()'> <br>");
+		contador=0; //Iniciamos contador de preguntas formuladas, inicialmente cero
+		correctas=0; //Parecido al anterior, nº de respuestas correctas
+		}
+	//----------------------------------------------
+	function continuar()
+		{
+		//alert("Continuando..."); //Funciona
+		cajaContinuar.disabled=true;
+		//document.write(" <b>"+nombre+"</b> <br>");
+		//document.write("<br>")
+		//alert(contador) //Funciona
+		//alert(n) //Funciona
+		if(contador==n)
+			{
+			//alert("No hay más preguntas");
+			document.write("<br> <b>TODO CORRECTO - BUEN TRABAJO</b> <br>");
+			document.write("Realizado por <b>"+nombre+"</b>");
+			cuerpo.style.background="#C7FFF2"; //Celeste cuando todo correcto
+			}
+		else
+			{
+			document.write("<br>"+preguntas[contador]+" "); 
+			document.write("<input type=text class=cajasRespuesta> ");
+			document.write("<input type=button class=botonesComprobar value='Comprobar' onclick='comprobar()'> ");
+			}
+		}
+	//----------------------------------------------
+	function comprobar(x)
+		{
+		//alert("Comprobando...") //Funciona
+		tusRespuestas=document.querySelectorAll(".cajasRespuesta");
+		tusBotones=document.querySelectorAll(".botonesComprobar");
+		//alert(tusRespuestas.length) //Funciona
+		//alert(tusRespuestas[contador].value); //Funciona
+		//alert(respuestas[contador]); //Funciona
+		if(tusRespuestas[contador].value.trim()==respuestas[contador]) //Son dos arrays, recuerda
+			{
+			//alert("Muy bien");
+			correctas=contador+1; //Necesario para mostrar nº de respuestas acertadas en el mensaje siguiente
+			document.write("CORRECTO - "+correctas+" respuestas de "+n+"<br>");
+			tusRespuestas[contador].value=tusRespuestas[contador].value.trim() //Ya sin espacios laterales
+			tusRespuestas[contador].style.background="white";
+			tusRespuestas[contador].disabled=true;
+			tusBotones[contador].disabled=true;
+			contador++;
+			continuar();
+			}
+		else
+			{
+			//alert("Mal");
+			tusRespuestas[contador].style.background="pink";
+			}
+		}
+	//----------------------------------------------
+	
+</script>
 
-texto=texto+'<b>Cuestiones relativas a la función para hacer cálculos</b><br><br>';
-preguntas[n]=texto+'Código de la Línea 1 ';respuestas[n]='a=1*entrada1.value';n++;
-preguntas[n]='Código de la Línea 2 ';respuestas[n]='b=1*entrada2.value';n++;
-preguntas[n]='Código de la Línea 3 ';respuestas[n]='c=a+b';n++;
-preguntas[n]='Código de la Línea 4 ';respuestas[n]='salida1.value=c';n++;
-preguntas[n]='Código de la Línea 5 ';respuestas[n]='c=a-b';n++;
-preguntas[n]='Código de la Línea 6 ';respuestas[n]='salida2.value=c';n++;
-preguntas[n]='Código de la Línea 7 ';respuestas[n]='c=a*b';n++;
-preguntas[n]='Código de la Línea 8 ';respuestas[n]='salida3.value=c';n++;
-preguntas[n]='Código de la Línea 9 ';respuestas[n]='c=a**b';n++;
-preguntas[n]='Código de la Línea 10 ';respuestas[n]='salida4.value=c';n++;
-preguntas[n]='Código de la Línea 11 ';respuestas[n]='c=a/b';n++;
-preguntas[n]='Código de la Línea 12 ';respuestas[n]='salida5.value=c';n++;
-preguntas[n]='Código de la Línea 13 ';respuestas[n]='c=parseInt(c)';n++;
-preguntas[n]='Código de la Línea 14 ';respuestas[n]='salida6.value=c';n++;
-preguntas[n]='Código de la Línea 15 ';respuestas[n]='c=a%b';n++;
-preguntas[n]='Código de la Línea 16 ';respuestas[n]='salida7.value=c';n++;
-preguntas[n]='¿Cuántas variables JS se utilizan en esta función? ';respuestas[n]='3';n++;
-preguntas[n]='¿Cuál de ellas cambia de valor durante la ejecución de esta función? ';respuestas[n]='c';n++;
-preguntas[n]='¿Cuál es la función de JS que devuelve la parte entera (si decimales) de un número? ';respuestas[n]='parseInt()';n++;
-preguntas[n]='¿Cuántos parámetros tiene dicha función? (La mencionada en la cuestión anterior) ';respuestas[n]='1';n++;
-
-texto='<br><b>Cuestiones relativas a la función para borrar todos los resultados</b><br><br>';
-preguntas[n]=texto+'Código de la Línea 1 ';respuestas[n]='salida1.value=""';n++;
-preguntas[n]='Código de la Línea 2 ';respuestas[n]='salida2.value=""';n++;
-preguntas[n]='Código de la Línea 3 ';respuestas[n]='salida3.value=""';n++;
-preguntas[n]='Código de la Línea 4 ';respuestas[n]='salida4.value=""';n++;
-preguntas[n]='Código de la Línea 5 ';respuestas[n]='salida5.value=""';n++;
-preguntas[n]='Código de la Línea 6 ';respuestas[n]='salida6.value=""';n++;
-preguntas[n]='Código de la Línea 7 ';respuestas[n]='salida7.value=""';n++;
-
-texto='<br><b>Cuestiones relativas a la función para borrar todos los datos</b><br><br>';
-preguntas[n]=texto+'Código de la Línea 1 ';respuestas[n]='entrada1.value=""';n++;
-preguntas[n]='Código de la Línea 2 ';respuestas[n]='entrada2.value=""';n++;
-preguntas[n]='Código de la Línea 3 ';respuestas[n]='borrarResultados()';n++;
-
-texto='<br><b>Cuestiones relativas a la función para generar valores aleatorios</b><br><br>';
-preguntas[n]=texto+'Código de la Línea 1 ';respuestas[n]='entrada1.value=Math.random()';n++;
-preguntas[n]='Código de la Línea 2 ';respuestas[n]='entrada2.value=Math.random()';n++;
-preguntas[n]='Código de la Línea 3 ';respuestas[n]='borrarResultados()';n++;
-preguntas[n]='Modifica la línea 1 para que genere un número aleatorio entre 0 y 100 ';respuestas[n]='entrada1.value=100*Math.random()';n++;
-preguntas[n]='Tras la modificación anterior ¿se genera un número entero? ';respuestas[n]='No';n++;
-preguntas[n]='Modifica la línea 1 para que genere un número ENTERO (sin decimales) aleatorio entre 0 y 100 ';respuestas[n]='entrada1.value=parseInt(100*Math.random())';n++;
-preguntas[n]='¿Cuántos parámetros tiene la función Math.random() ? ';respuestas[n]='0';n++;
-
-texto='<br><b>Cuestiones genéricas</b><br><br>';
-preguntas[n]=texto+'¿Cuál es el evento HTML para ejecutar código JS al hacer clic sobre un objeto? (Normalmente de un botón) ';respuestas[n]='onclick';n++;
-preguntas[n]='¿Cuál es el evento HTML para ejecutar código JS que se ejecuta cada vez que el valor de un dato de entrada se cambia? ';respuestas[n]='onchange';n++;
-preguntas[n]='¿Qué propiedad permite establecer que el valor de un objeto de salida sólo pueda ser leído (pero no modificado) por el cliente? ';respuestas[n]='readonly';n++;
-preguntas[n]='¿Cuántas funciones has definido en estos ejercicios? ';respuestas[n]='4';n++;
-preguntas[n]='¿Cuántas funciones propias de Javascript (no definidas por ti) has utilizado en estos ejercicios? ';respuestas[n]='2';n++;
+<body onload="inicio()">
+	<!Todo se procesa en Javascript>
+</body>
