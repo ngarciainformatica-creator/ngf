@@ -4,10 +4,10 @@ preguntas=new Array();
 respuestas=new Array();
 n=0;
 
-texto='ESTE CUESTIONARIO ES RELATIVO A LOS EJERCICIOS SOBRE EL ARCHIVO plantilla01.html<br>';
+texto='ESTE CUESTIONARIO ES RELATIVO A LOS EJERCICIOS SOBRE EL ARCHIVO <b>plantilla02.html</b><br>';
 texto=texto+'(Realizados durante la clase del lunes 6 de octubre)<br><br>';
 
-texto=texto+'<b>Cuestiones relativas a la función para hacer cálculos</b><br><br>;
+texto=texto+'<b>Cuestiones relativas a la función para hacer cálculos</b><br><br>';
 preguntas[n]=texto+'Código de la Línea 1 ';respuestas[n]='a=1*entrada1.value';n++;
 preguntas[n]='Código de la Línea 2 ';respuestas[n]='b=1*entrada2.value';n++;
 preguntas[n]='Código de la Línea 3 ';respuestas[n]='c=a+b';n++;
@@ -29,7 +29,7 @@ preguntas[n]='¿Cuál de ellas cambia de valor durante la ejecución de esta fun
 preguntas[n]='¿Cuál es la función de JS que devuelve la parte entera (si decimales) de un número? ';respuestas[n]='parseInt()';n++;
 preguntas[n]='¿Cuántos parámetros tiene dicha función? (La mencionada en la cuestión anterior) ';respuestas[n]='1';n++;
 
-texto='<br><b>Cuestiones relativas a la función para borrar todos los resultados</b><br><br>;
+texto='<br><b>Cuestiones relativas a la función para borrar todos los resultados</b><br><br>';
 preguntas[n]=texto+'Código de la Línea 1 ';respuestas[n]='salida1.value=""';n++;
 preguntas[n]='Código de la Línea 2 ';respuestas[n]='salida2.value=""';n++;
 preguntas[n]='Código de la Línea 3 ';respuestas[n]='salida3.value=""';n++;
@@ -38,12 +38,12 @@ preguntas[n]='Código de la Línea 5 ';respuestas[n]='salida5.value=""';n++;
 preguntas[n]='Código de la Línea 6 ';respuestas[n]='salida6.value=""';n++;
 preguntas[n]='Código de la Línea 7 ';respuestas[n]='salida7.value=""';n++;
 
-texto='<br><b>Cuestiones relativas a la función para borrar todos los datos</b><br><br>;
+texto='<br><b>Cuestiones relativas a la función para borrar todos los datos</b><br><br>';
 preguntas[n]=texto+'Código de la Línea 1 ';respuestas[n]='entrada1.value=""';n++;
 preguntas[n]='Código de la Línea 2 ';respuestas[n]='entrada2.value=""';n++;
 preguntas[n]='Código de la Línea 3 ';respuestas[n]='borrarResultados()';n++;
 
-texto='<br><b>Cuestiones relativas a la función para generar valores aleatorios</b><br><br>;
+texto='<br><b>Cuestiones relativas a la función para generar valores aleatorios</b><br><br>';
 preguntas[n]=texto+'Código de la Línea 1 ';respuestas[n]='entrada1.value=Math.random()';n++;
 preguntas[n]='Código de la Línea 2 ';respuestas[n]='entrada2.value=Math.random()';n++;
 preguntas[n]='Código de la Línea 3 ';respuestas[n]='borrarResultados()';n++;
@@ -52,7 +52,7 @@ preguntas[n]='Tras la modificación anterior ¿se genera un número entero? ';re
 preguntas[n]='Modifica la línea 1 para que genere un número ENTERO (sin decimales) aleatorio entre 0 y 100 ';respuestas[n]='entrada1.value=parseInt(100*Math.random())';n++;
 preguntas[n]='¿Cuántos parámetros tiene la función Math.random() ? ';respuestas[n]='0';n++;
 
-texto='<br><b>Cuestiones genéricas</b><br><br>;
+texto='<br><b>Cuestiones genéricas</b><br><br>';
 preguntas[n]=texto+'¿Cuál es el evento HTML para ejecutar código JS al hacer clic sobre un objeto? (Normalmente de un botón) ';respuestas[n]='onclick';n++;
 preguntas[n]='¿Cuál es el evento HTML para ejecutar código JS que se ejecuta cada vez que el valor de un dato de entrada se cambia? ';respuestas[n]='onchange';n++;
 preguntas[n]='¿Qué propiedad permite establecer que el valor de un objeto de salida sólo pueda ser leído (pero no modificado) por el cliente? ';respuestas[n]='readonly';n++;
