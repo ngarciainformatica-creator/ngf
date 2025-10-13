@@ -1,6 +1,6 @@
 <meta charset="utf-8">
 
-<script src="cuestiones01.js"> </script>
+<script src="cuestiones.js"> </script>
 
 <!Hay un array llamado preguntas y otro llamado respuestas, ambos de longitud n>
 <script>
@@ -11,7 +11,7 @@
 			//alert("Las preguntas son:\n"+preguntas); //Funciona
 			document.write("<style>")
 			document.write("body{background:lightgrey;font-family:Arial;margin:20;}")
-			document.write("input[type=text]{width:250;font-family:Courier New;}")
+			document.write("input[type=text]{width:500;font-family:Courier New;}")
 			document.write("</style>")
 			document.write("<body id=cuerpo>")
 			document.write("<b>PROGRAMACIÓN BÁSICA EN JS - EJERCICIOS - RELACIÓN Nº "+relacion+"</b><br><br>")
@@ -51,11 +51,11 @@
 			document.write("<br> <b>TODO CORRECTO - BUEN TRABAJO</b> <br>");
 			document.write("Realizado por <b>"+nombre+"</b>");
 			cuerpo.style.background="#0000FF"; //Fondo azul oscuro cuando todo correcto
-			cuerpo.style.color="#0000FF"; //Texto blanco cuando todo correcto
+			cuerpo.style.color="#FFFFFF"; //Texto blanco cuando todo correcto
 			}
 		else
 			{
-			document.write("<br>"+preguntas[contador]+" "); 
+			document.write("<br>"+preguntas[contador]+"<br> Respuesta: "); 
 			document.write("<input type=text class=cajasRespuesta> ");
 			document.write("<input type=button class=botonesComprobar value='Comprobar' onclick='comprobar()'> ");
 			}
@@ -73,7 +73,7 @@
 			{
 			//alert("Muy bien");
 			correctas=contador+1; //Necesario para mostrar nº de respuestas acertadas en el mensaje siguiente
-			document.write("CORRECTO "+nombre+" - "+correctas+" respuestas de "+n+"<br>");
+			document.write("<br>CORRECTO - "+nombre+" - "+correctas+" respuestas de "+n+"<br>");
 			tusRespuestas[contador].value=tusRespuestas[contador].value.trim() //Ya sin espacios laterales
 			tusRespuestas[contador].style.background="white";
 			tusRespuestas[contador].disabled=true;
