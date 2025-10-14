@@ -33,3 +33,4 @@ preguntas[n]='¿Cuántas líneas <b>prompt</b> hay en este programa? ';respuesta
 preguntas[n]='En general ¿Cuántas líneas <b>prompt</b> debe tener un programa sencillo? ';respuestas[n]='Tantas como datos de entrada tenga';n++;
 preguntas[n]='La primera variable de este programa ¿podría haberse llamado <b>num 1</b>? (Piensa por qué) ';respuestas[n]='No';n++;
 preguntas[n]='¿Podría haberse llamado <b>1num</b>? (Piensa por qué) ';respuestas[n]='No';n++;
+preguntas[n]='¿Cómo se llama el lenguaje de programación en el que estamos trabajando? ';respuestas[n]='Javascript';n++;
