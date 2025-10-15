@@ -34,3 +34,26 @@ preguntas[n]='En general ¿Cuántas líneas <b>prompt</b> debe tener un programa
 preguntas[n]='La primera variable de este programa ¿podría haberse llamado <b>num 1</b>? (Piensa por qué) ';respuestas[n]='No';n++;
 preguntas[n]='¿Podría haberse llamado <b>1num</b>? (Piensa por qué) ';respuestas[n]='No';n++;
 preguntas[n]='¿Cómo se llama el lenguaje de programación en el que estamos trabajando? ';respuestas[n]='Javascript';n++;
+
+preguntas[n]='<br><br>NUEVO PROGRAMA<br>Pedir una <b>palabra</b> (Utilizar este nombre para la variable) ';respuestas[n]='palabra=prompt()';n++;
+preguntas[n]='Crear una variable llamada <b>word</b> con valor inicial "Desconocido" ';respuestas[n]='word="Desconocido"';n++;
+preguntas[n]='Si el valor de la <b>palabra</b> es "lunes" la variable <b>word</b> toma el valor "monday" ';respuestas[n]='if(palabra=="lunes") word="monday"';n++;
+preguntas[n]='Si el valor de la <b>palabra</b> es "martes" la variable <b>word</b> toma el valor "tuesday" ';respuestas[n]='if(palabra=="martes") word=""';n++;
+preguntas[n]='Hacer lo mismo para el miércoles ';respuestas[n]='if(palabra=="miércoles") word="wednesday"';n++;
+preguntas[n]='Hacer lo mismo para el jueves ';respuestas[n]='if(palabra=="jueves") word="thursday"';n++;
+preguntas[n]='Hacer lo mismo para el viernes ';respuestas[n]='if(palabra=="viernes") word="friday"';n++;
+preguntas[n]='Hacer lo mismo para el sábado ';respuestas[n]='if(palabra=="sábado") word="saturday"';n++;
+preguntas[n]='Hacer lo mismo para el domingo ';respuestas[n]='if(palabra=="domingo") word="sunday"';n++;
+preguntas[n]='Finalmente mostrar el valor de la variable word ';respuestas[n]='alert(word)';n++;
+preguntas[n]='Ejecutar varias veces con varios valores de entrada, incluso con palabras desconocidas. ¿Qué resultado obtienes si introduces por ejemplo el valor <b>juan</b>? ';respuestas[n]='Desconocido';n++;
+preguntas[n]='Tal y como está el programa ahora mismo ¿Qué resultado obtienes si introduces <b>LUNES</b> (o Lunes, con alguna mayúscula). Piensa por qué. ';respuestas[n]='Desconocido';n++;
+preguntas[n]='Añadir una segunda línea (inmediatamente después del primer prompt) para conseguir que el dato introducido (palabra) se convierta todo a minúsculas ';respuestas[n]='palabra=palabra.toLowerCase()';n++;
+preguntas[n]='Añadir una tercera línea (inmediatamente después de la anterior) para mostrar el nuevo valor de la variable <b>palabra</b> ';respuestas[n]='alert(palabra)';n++;
+preguntas[n]='Ejecutar de nuevo varias veces. ¿Qué resultado se muestra ahora si introduces LUNES o Lunes o LUnes...? ';respuestas[n]='monday';n++;
+preguntas[n]='Ocultar la línea que muestra el valor de la variable <b>palabra</b> (Sólo sirve para comprobar que la palabra se pasa correctamente a minúsculas) ';respuestas[n]='//alert(palabra)';n++;
+preguntas[n]='Modifica el primer prompt para que aparezca el texto <b>Introduce un día de la semana en español y te lo diré en inglés</b> ';respuestas[n]='palabra=prompt("Introduce un día de la semana en español y te lo diré en inglés")';n++;
+preguntas[n]='Ejecuta varias veces y comprueba que todo sea correcto. ¿Cuántos datos de entrada tiene este programa? ';respuestas[n]='1';n++;
+preguntas[n]='¿Cuántos datos de salida tiene? ';respuestas[n]='1';n++;
+preguntas[n]='¿Cómo hemos llamado al dato de entrada? ';respuestas[n]='palabra';n++;
+preguntas[n]='¿Cómo hemos llamado al dato de salida? ';respuestas[n]='word';n++;
+preguntas[n]='Este programa ¿resuelve un problema matemático, como el anterior que hiciste? ';respuestas[n]='No';n++;
