@@ -72,9 +72,9 @@ preguntas[n]='Convertir el valor de x en un número de cero a cien ';respuestas[
 preguntas[n]='Mostrar de nuevo el valor de x (ha cambiado) ';respuestas[n]='alert(x)';n++;
 preguntas[n]='Quitar los decimales a x ';respuestas[n]='x=parseInt(x)';n++;
 preguntas[n]='Mostrar de nuevo el valor de x (ha cambiado) ';respuestas[n]='alert(x)';n++;
-preguntas[n]='Modificar el primer alert para que aparezca un mensaje como ves en el vídeo ';respuestas[n]='alert("He generado un número aleatorio entre cero y uno y ha salido "+x)';n++;
-preguntas[n]='Modificar el segundo alert para que aparezca un mensaje como ves en el vídeo ';respuestas[n]='alert("Lo he multiplicado por 100 y he obtenido "+x)';n++;
-preguntas[n]='Modificar el tercer alert para que aparezca un mensaje como ves en el vídeo ';respuestas[n]='alert("Le he quitado los decimales y he obtenido "+x)';n++;
+preguntas[n]='Modificar el primer alert para que aparezca un mensaje <b>He generado un número aleatorio entre cero y uno y ha salido</b> ';respuestas[n]='alert("He generado un número aleatorio entre cero y uno y ha salido "+x)';n++;
+preguntas[n]='Modificar el segundo alert para que aparezca un mensaje <b>Lo he multiplicado por 100 y he obtenido</b> ';respuestas[n]='alert("Lo he multiplicado por 100 y he obtenido "+x)';n++;
+preguntas[n]='Modificar el tercer alert para que aparezca un mensaje <b>Le he quitado los decimales y he obtenido</b> ';respuestas[n]='alert("Le he quitado los decimales y he obtenido "+x)';n++;
 preguntas[n]='¿Cuál es la función para generar un número aleatorio entre cero y uno? ';respuestas[n]='Math.random()';n++;
 preguntas[n]='La función anterior ¿podría generar un 1 en algún caso? ';respuestas[n]='No';n++;
 preguntas[n]='En el programa que acabas de hacer ¿podría generarse finalmente un 100? ';respuestas[n]='No';n++;
