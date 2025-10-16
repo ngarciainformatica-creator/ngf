@@ -38,7 +38,7 @@ preguntas[n]='¿Cómo se llama el lenguaje de programación en el que estamos tr
 preguntas[n]='<br><br>NUEVO PROGRAMA<br>Pedir una <b>palabra</b> (Utilizar este nombre para la variable) ';respuestas[n]='palabra=prompt()';n++;
 preguntas[n]='Crear una variable llamada <b>word</b> con valor inicial "Desconocido" ';respuestas[n]='word="Desconocido"';n++;
 preguntas[n]='Si el valor de la <b>palabra</b> es "lunes" la variable <b>word</b> toma el valor "monday" ';respuestas[n]='if(palabra=="lunes") word="monday"';n++;
-preguntas[n]='Si el valor de la <b>palabra</b> es "martes" la variable <b>word</b> toma el valor "tuesday" ';respuestas[n]='if(palabra=="martes") word=""';n++;
+preguntas[n]='Si el valor de la <b>palabra</b> es "martes" la variable <b>word</b> toma el valor "tuesday" ';respuestas[n]='if(palabra=="martes") word="tuesday"';n++;
 preguntas[n]='Hacer lo mismo para el miércoles ';respuestas[n]='if(palabra=="miércoles") word="wednesday"';n++;
 preguntas[n]='Hacer lo mismo para el jueves ';respuestas[n]='if(palabra=="jueves") word="thursday"';n++;
 preguntas[n]='Hacer lo mismo para el viernes ';respuestas[n]='if(palabra=="viernes") word="friday"';n++;
