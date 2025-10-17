@@ -4,6 +4,7 @@ preguntas=new Array();
 respuestas=new Array();
 n=0;
 
+/*
 preguntas[n]='Pedir un número en una variable llamada <b>num1</b> ';respuestas[n]='num1=1*prompt()';n++;
 preguntas[n]='Pedir un número en una variable llamada <b>num2</b> ';respuestas[n]='num2=1*prompt()';n++;
 preguntas[n]='Calcular la suma de ambos números en una variable llamada <b>resul</b> ';respuestas[n]='resul=num1+num2';n++;
@@ -14,6 +15,7 @@ preguntas[n]='Modificar la tercera línea para calcular la resta de ambos númer
 preguntas[n]='Modificar la tercera línea para calcular la multiplicación (producto) de ambos números ';respuestas[n]='resul=num1*num2';n++;
 preguntas[n]='Modificar la tercera línea para calcular la división del primer número entre el segundo ';respuestas[n]='resul=num1/num2';n++;
 preguntas[n]='Aunque los dos datos de entrada sean números enteros ¿Es posible que el resultado sea un número con decimales? ';respuestas[n]='Sí';n++;
+*/
 
 preguntas[n]='¿Qué resultado muestra este programa cuando el segundo dato de entrada es cero? ';respuestas[n]='Infinity';n++;
 preguntas[n]='Modifica la primera línea del programa para que aparezca el mensaje <b>Introduzca el dividendo</b> ';respuestas[n]='num1=1*prompt("Introduzca el dividendo")';n++;
