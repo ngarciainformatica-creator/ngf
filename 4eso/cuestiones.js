@@ -15,8 +15,6 @@ preguntas[n]='Modificar la tercera línea para calcular la resta de ambos númer
 preguntas[n]='Modificar la tercera línea para calcular la multiplicación (producto) de ambos números ';respuestas[n]='resul=num1*num2';n++;
 preguntas[n]='Modificar la tercera línea para calcular la división del primer número entre el segundo ';respuestas[n]='resul=num1/num2';n++;
 preguntas[n]='Aunque los dos datos de entrada sean números enteros ¿Es posible que el resultado sea un número con decimales? ';respuestas[n]='Sí';n++;
-*/
-
 preguntas[n]='¿Qué resultado muestra este programa cuando el segundo dato de entrada es cero? ';respuestas[n]='Infinity';n++;
 preguntas[n]='Modifica la primera línea del programa para que aparezca el mensaje <b>Introduzca el dividendo</b> ';respuestas[n]='num1=1*prompt("Introduzca el dividendo")';n++;
 preguntas[n]='Modifica la segunda línea del programa para que aparezca el mensaje <b>Introduzca el divisor</b> ';respuestas[n]='num2=1*prompt("Introduzca el divisor")';n++;
@@ -37,7 +35,7 @@ preguntas[n]='En general ¿Cuántas líneas <b>prompt</b> debe tener un programa
 preguntas[n]='La primera variable de este programa ¿podría haberse llamado <b>num 1</b>? (Piensa por qué) ';respuestas[n]='No';n++;
 preguntas[n]='¿Podría haberse llamado <b>1num</b>? (Piensa por qué) ';respuestas[n]='No';n++;
 preguntas[n]='¿Cómo se llama el lenguaje de programación en el que estamos trabajando? ';respuestas[n]='Javascript';n++;
-
+*/
 preguntas[n]='<br><br>NUEVO PROGRAMA<br>Pedir una <b>palabra</b> (Utilizar este nombre para la variable) ';respuestas[n]='palabra=prompt()';n++;
 preguntas[n]='Crear una variable llamada <b>word</b> con valor inicial "Desconocido" ';respuestas[n]='word="Desconocido"';n++;
 preguntas[n]='Si el valor de la <b>palabra</b> es "lunes" la variable <b>word</b> toma el valor "monday" ';respuestas[n]='if(palabra=="lunes") word="monday"';n++;
