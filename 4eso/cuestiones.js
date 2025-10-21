@@ -4,7 +4,7 @@ preguntas=new Array();
 respuestas=new Array();
 n=0;
 
-preguntas[n]='<b>PROGRAMA:</b><br>Pedir un número <b>a</b> ';respuestas[n]='a=1*prompt()';n++;
+preguntas[n]='<b>PROGRAMA:</b><br>Pedir un número <b>a</b> (Sin mensaje) ';respuestas[n]='a=1*prompt()';n++;
 preguntas[n]='Si a es mayor o igual que cero mostrar <b>Es positivo</b> ';respuestas[n]='if(a>=0) alert("Es positivo")';n++;
 preguntas[n]='Si a es menor que cero mostrar <b>Es negativo</b> ';respuestas[n]='if(a<0) alert("Es negativo")';n++;
 preguntas[n]='Quitar los decimales al valor de <b>a</b> ';respuestas[n]='a=parseInt(a)';n++;
