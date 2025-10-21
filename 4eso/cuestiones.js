@@ -65,6 +65,7 @@ preguntas[n]='CUSTIONES:<br>Ejecuta el programa con valores a=1 b=-17 c=72 ¿Qu�
 preguntas[n]='En dicha ejecución ¿Qué valor obtienes como segunda solución? ';respuestas[n]='8';n++;
 preguntas[n]='Ejecuta el programa con tres valores iguales, los que quieras ¿Qué valor obtienes en ambas soluciones? (Piensa por qué) ';respuestas[n]='NaN';n++;
 
+/*
 preguntas[n]='NUEVO PROGRAMA:<br>Mostrar texto <b>Vamos a generar un número aleatorio</b> ';respuestas[n]='alert("Vamos a generar un número aleatorio")';n++;
 preguntas[n]='Generar un número aleatorio x entre cero y uno (el uno no llega a generarse) ';respuestas[n]='x=Math.random()';n++;
 preguntas[n]='Mostrar el valor de x ';respuestas[n]='alert(x)';n++;
@@ -98,3 +99,4 @@ preguntas[n]='Modificar la última línea para que aparezca el mensaje <b>He lan
 preguntas[n]='Modificar la segunda línea para que el número aleatorio esté comprendido entre uno y seis (y no entre cero y cinco) ';respuestas[n]='x=1+parseInt(6*Math.random())';n++;
 preguntas[n]='Ejecutar varias veces después de este último cambio. ¿Se obtiene ahora el cero? ';respuestas[n]='No';n++;
 preguntas[n]='Y ahora ¿Se obtiene a veces un seis? ';respuestas[n]='Sí';n++;
+*/
