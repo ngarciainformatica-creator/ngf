@@ -4,7 +4,7 @@ preguntas=new Array();
 respuestas=new Array();
 n=0;
 
-preguntas[n]='PROGRAMA:<br>Pedir un número <b>a</b> ';respuestas[n]='a=1*prompt()';n++;
+preguntas[n]='<b>PROGRAMA:</b><br>Pedir un número <b>a</b> ';respuestas[n]='a=1*prompt()';n++;
 preguntas[n]='Si a es mayor o igual que cero mostrar <b>Es positivo</b> ';respuestas[n]='if(a>=0) alert("Es positivo")';n++;
 preguntas[n]='Si a es menor que cero mostrar <b>Es negativo</b> ';respuestas[n]='if(a<0) alert("Es negativo")';n++;
 preguntas[n]='Quitar los decimales al valor de <b>a</b> ';respuestas[n]='a=parseInt(a)';n++;
@@ -17,7 +17,7 @@ preguntas[n]='Modificar la primera línea con el texto <b>Introduzca un número<
 preguntas[n]='Ocultar la línea (ya hecha) que muestra el valor de <b>a</b> ';respuestas[n]='//alert(a)';n++;
 preguntas[n]='Ocultar la línea que muestra el valor de <b>r</b> ';respuestas[n]='//alert(r)';n++;
 
-preguntas[n]='NUEVO PROGRAMA:<br>Introduzca un número a ';respuestas[n]='a=1*prompt("Introduzca un número")';n++;
+preguntas[n]='<b>NUEVO PROGRAMA:</b><br>Introduzca un número a ';respuestas[n]='a=1*prompt("Introduzca un número")';n++;
 preguntas[n]='Introduzca otro número b ';respuestas[n]='b=1*prompt("Introduzca otro número")';n++;
 preguntas[n]='Hallar resto r de la división entera de a entre b ';respuestas[n]='r=a%b';n++;
 preguntas[n]='Mostrar r ';respuestas[n]='alert(r)';n++;
@@ -43,7 +43,7 @@ preguntas[n]='¿Cuál sería la segunda solución de dicha ecuación? ';respuest
 preguntas[n]='La ecuación <b>x<sup>2</sup> + x + 1 = 0  </b> ¿Tiene soluciones? (Piensa por qué) ';respuestas[n]='No';n++;
 preguntas[n]='En general: Las ecuaciones cuyos coeficientes (a, b, c) son los tres iguales ¿Tienen soluciones? (Piensa por qué) ';respuestas[n]='No';n++;
 
-preguntas[n]='COMIENZA EL NUEVO PROGRAMA:<br>Mostrar el texto <b>Vamos a resolver una ecuación de segundo grado</b> ';respuestas[n]='alert("Vamos a resolver una ecuación de segundo grado")';n++;
+preguntas[n]='<b>COMIENZA EL NUEVO PROGRAMA:</b><br>Mostrar el texto <b>Vamos a resolver una ecuación de segundo grado</b> ';respuestas[n]='alert("Vamos a resolver una ecuación de segundo grado")';n++;
 preguntas[n]='Pedir un número a ';respuestas[n]='a=1*prompt()';n++;
 preguntas[n]='Pedir un número b ';respuestas[n]='b=1*prompt()';n++;
 preguntas[n]='Pedir un número c ';respuestas[n]='c=1*prompt()';n++;
@@ -66,7 +66,7 @@ preguntas[n]='En dicha ejecución ¿Qué valor obtienes como segunda solución? 
 preguntas[n]='Ejecuta el programa con tres valores iguales, los que quieras ¿Qué valor obtienes en ambas soluciones? (Piensa por qué) ';respuestas[n]='NaN';n++;
 
 /*
-preguntas[n]='NUEVO PROGRAMA:<br>Mostrar texto <b>Vamos a generar un número aleatorio</b> ';respuestas[n]='alert("Vamos a generar un número aleatorio")';n++;
+preguntas[n]='<b>NUEVO PROGRAMA:</b><br>Mostrar texto <b>Vamos a generar un número aleatorio</b> ';respuestas[n]='alert("Vamos a generar un número aleatorio")';n++;
 preguntas[n]='Generar un número aleatorio x entre cero y uno (el uno no llega a generarse) ';respuestas[n]='x=Math.random()';n++;
 preguntas[n]='Mostrar el valor de x ';respuestas[n]='alert(x)';n++;
 preguntas[n]='Convertir el valor de x en un número de cero a cien ';respuestas[n]='x=x*100';n++;
@@ -81,7 +81,7 @@ preguntas[n]='La función anterior ¿podría generar un 1 en algún caso? ';resp
 preguntas[n]='En el programa que acabas de hacer ¿podría generarse finalmente un 100? ';respuestas[n]='No';n++;
 preguntas[n]='¿Cuál sería el valor final máximo que podría generarse? ';respuestas[n]='99';n++;
 
-preguntas[n]='NUEVO PROGRAMA:<br>Mostrar el texto <b>Vamos a lanzar una moneda</b> ';respuestas[n]='alert("Vamos a lanzar una moneda")';n++;
+preguntas[n]='<b>NUEVO PROGRAMA:</b><br>Mostrar el texto <b>Vamos a lanzar una moneda</b> ';respuestas[n]='alert("Vamos a lanzar una moneda")';n++;
 preguntas[n]='Generar un número aleatorio x entre cero y uno (ya sabes que el uno no se incluye) ';respuestas[n]='x=Math.random()';n++;
 preguntas[n]='Mostrar el valor de x ';respuestas[n]='alert(x)';n++;
 preguntas[n]='Ejecútalo varias veces ¿Siempre sale el mismo valor? ';respuestas[n]='No';n++;
@@ -90,7 +90,7 @@ preguntas[n]='Si x es mayor o igual que 0.5 Mostrar <b>Cruz</b> ';respuestas[n]=
 preguntas[n]='Ocultar la línea que muestra el valor de x ';respuestas[n]='//alert(x)';n++;
 preguntas[n]='Ejecútalo varias veces ¿Siempre sale el mismo texto final? (Cara o Cruz) ';respuestas[n]='No';n++;
 
-preguntas[n]='NUEVO PROGRAMA:<br>Mostrar el texto <b>Vamos a lanzar un dado</b> ';respuestas[n]='alert("Vamos a lanzar un dado")';n++;
+preguntas[n]='<b>NUEVO PROGRAMA:</b><br>Mostrar el texto <b>Vamos a lanzar un dado</b> ';respuestas[n]='alert("Vamos a lanzar un dado")';n++;
 preguntas[n]='Generar directamente un número entero aleatorio x entre cero y cinco. Pregunta cómo se hace. ';respuestas[n]='x=parseInt(6*Math.random())';n++;
 preguntas[n]='Mostrar el valor de x ';respuestas[n]='alert(x)';n++;
 preguntas[n]='Ejecutar varias veces. ¿Se obtiene a veces un cero? ';respuestas[n]='Sí';n++;
