@@ -4,7 +4,7 @@ preguntas=new Array();
 respuestas=new Array();
 n=0;
 
-/*
+
 preguntas[n]='Pedir un número en una variable llamada <b>num1</b> ';respuestas[n]='num1=1*prompt()';n++;
 preguntas[n]='Pedir un número en una variable llamada <b>num2</b> ';respuestas[n]='num2=1*prompt()';n++;
 preguntas[n]='Calcular la suma de ambos números en una variable llamada <b>resul</b> ';respuestas[n]='resul=num1+num2';n++;
@@ -35,7 +35,7 @@ preguntas[n]='En general ¿Cuántas líneas <b>prompt</b> debe tener un programa
 preguntas[n]='La primera variable de este programa ¿podría haberse llamado <b>num 1</b>? (Piensa por qué) ';respuestas[n]='No';n++;
 preguntas[n]='¿Podría haberse llamado <b>1num</b>? (Piensa por qué) ';respuestas[n]='No';n++;
 preguntas[n]='¿Cómo se llama el lenguaje de programación en el que estamos trabajando? ';respuestas[n]='Javascript';n++;
-*/
+
 preguntas[n]='<br><br>NUEVO PROGRAMA<br>Pedir una <b>palabra</b> (Utilizar este nombre para la variable) ';respuestas[n]='palabra=prompt()';n++;
 preguntas[n]='Crear una variable llamada <b>word</b> con valor inicial "Desconocido" ';respuestas[n]='word="Desconocido"';n++;
 preguntas[n]='Si el valor de la <b>palabra</b> es "lunes" la variable <b>word</b> toma el valor "monday" ';respuestas[n]='if(palabra=="lunes") word="monday"';n++;
