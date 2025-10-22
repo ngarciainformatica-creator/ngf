@@ -5,6 +5,12 @@ respuestas=new Array();
 n=0;
 
 preguntas[n]='<b>PROGRAMA:</b><br>Pedir un número <b>a</b> (Sin mensaje) ';respuestas[n]='a=1*prompt()';n++;
+preguntas[n]='Hallar la raíz cuadrada de <b>a</b> en una variable llamada <b>raiz</b> (sin tilde) ';respuestas[n]='raiz=Math.sqrt(a)';n++;
+preguntas[n]='Mostrar el valor de <b>raiz</b> (Sin mensaje) ';respuestas[n]='alert(raiz)';n++;
+preguntas[n]='Modifica la primera línea (prompt) con el mensaje <b>Introduzca un número</b> ';respuestas[n]='a=1*prompt("Introduzca un número")';n++;
+preguntas[n]='Modifica la tercera línea (alert) con el mensaje <b>La raíz de <u>a</u> es <u>raiz</u></b> ';respuestas[n]='alert("La raíz de "+a+"es "+raiz)';n++;
+
+preguntas[n]='<br><b>NUEVO PROGRAMA:</b><br>Pedir un número <b>a</b> (Sin mensaje) ';respuestas[n]='a=1*prompt()';n++;
 preguntas[n]='Si a es mayor o igual que cero mostrar <b>Es positivo</b> ';respuestas[n]='if(a>=0) alert("Es positivo")';n++;
 preguntas[n]='Si a es menor que cero mostrar <b>Es negativo</b> ';respuestas[n]='if(a<0) alert("Es negativo")';n++;
 preguntas[n]='Quitar los decimales al valor de <b>a</b> ';respuestas[n]='a=parseInt(a)';n++;
