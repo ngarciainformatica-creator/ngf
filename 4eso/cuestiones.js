@@ -34,6 +34,7 @@ preguntas[n]='Si r es cero Mostrar <b>a</b> es múltiplo de <b>b</b> ';respuesta
 preguntas[n]='Si r es distinto de cero Mostrar <b>a</b> NO es múltiplo de <b>b</b> ';respuestas[n]='if(r!=0) alert(a+" NO es múltiplo de "+b)';n++;
 preguntas[n]='Ocultar la línea que muestra el valor de r ';respuestas[n]='//alert(r)';n++;
 
+/*
 preguntas[n]='<b>NUEVO PROGRAMA:</b><br>Mostrar texto <b>Vamos a generar un número aleatorio</b> ';respuestas[n]='alert("Vamos a generar un número aleatorio")';n++;
 preguntas[n]='Generar un número aleatorio x entre cero y uno (el uno no llega a generarse) ';respuestas[n]='x=Math.random()';n++;
 preguntas[n]='Mostrar el valor de x ';respuestas[n]='alert(x)';n++;
@@ -68,8 +69,6 @@ preguntas[n]='Modificar la segunda línea para que el número aleatorio esté co
 preguntas[n]='Ejecutar varias veces después de este último cambio. ¿Se obtiene ahora el cero? ';respuestas[n]='No';n++;
 preguntas[n]='Y ahora ¿Se obtiene a veces un seis? ';respuestas[n]='Sí';n++;
 
-
-/*
 preguntas[n]='<br>NUEVAS CUESTIONES:<br>Un programa que resuelve una ecuación de segundo grado ¿Cuántos datos de entrada tiene? ';respuestas[n]='3';n++;
 preguntas[n]='En las fórmulas matemáticas ¿Cómo se le llama al primero de ellos? ';respuestas[n]='a';n++;
 preguntas[n]='¿Y al segundo? ';respuestas[n]='b';n++;
