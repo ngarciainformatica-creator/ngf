@@ -21,7 +21,7 @@ preguntas[n]='Mostrar el valor de <b>a</b> (ya sin decimales) ';respuestas[n]='a
 preguntas[n]='Hallar en una variable <b>r</b> el resto de la división entera de a entre dos ';respuestas[n]='r=a%2';n++;
 preguntas[n]='Mostrar el valor de <b>r</b> ';respuestas[n]='alert(r)';n++;
 preguntas[n]='Si r es cero Mostrar <b>Es par</b> ';respuestas[n]='if(r==0) alert("Es par")';n++;
-preguntas[n]='Si r es uno Mostrar <b>Es par</b> ';respuestas[n]='if(r==1) alert("Es impar")';n++;
+preguntas[n]='Si r es uno Mostrar <b>Es impar</b> ';respuestas[n]='if(r==1) alert("Es impar")';n++;
 preguntas[n]='Modificar la primera línea con el texto <b>Introduzca un número</b> ';respuestas[n]='a=1*prompt("Introduzca un número")';n++;
 preguntas[n]='Ocultar la línea (ya hecha) que muestra el valor de <b>a</b> ';respuestas[n]='//alert(a)';n++;
 preguntas[n]='Ocultar la línea que muestra el valor de <b>r</b> ';respuestas[n]='//alert(r)';n++;
