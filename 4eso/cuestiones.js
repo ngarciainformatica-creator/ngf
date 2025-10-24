@@ -37,6 +37,6 @@ preguntas[n]='Modificar la última línea para que aparezca el mensaje <b>He lan
 preguntas[n]='Modificar la segunda línea para que el número aleatorio esté comprendido entre uno y seis (y no entre cero y cinco) ';respuestas[n]='x=1+parseInt(6*Math.random())';n++;
 preguntas[n]='Ejecutar varias veces después de este último cambio. ¿Se obtiene ahora el cero? ';respuestas[n]='No';n++;
 preguntas[n]='Y ahora ¿Se obtiene a veces un seis? ';respuestas[n]='Sí';n++;
-preguntas[n]='Ejecuta el programa con tres valores iguales, los que quieras ¿Qué valor obtienes en ambas soluciones? (Piensa por qué) ';respuestas[n]='NaN';n++;
+
 
 
