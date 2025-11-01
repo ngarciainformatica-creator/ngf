@@ -1,4 +1,4 @@
-relacion=4; // Para mostrar al principio de la página: Relación nº...
+relacion=1; // Es la relación 1 de ejercicios de comandos Ubuntu
 
 preguntas=new Array();
 respuestas=new Array();
