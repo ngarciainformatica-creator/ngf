@@ -1,1 +1,46 @@
+relacion=4; // Para mostrar al principio de la página: Relación nº...
 
+preguntas=new Array();
+respuestas=new Array();
+n=0;
+
+preguntas[n]='¿Qué es el sistema operativo? (SO) ';respuestas[n]='Es el programa principal que hace funcionar el ordenador.';n++;
+preguntas[n]='¿Qué función tiene el sistema operativo? ';respuestas[n]='Permitir usar el ordenador con programas, archivos e Internet.';n++;
+preguntas[n]='¿Qué es Ubuntu? ';respuestas[n]='Una versión del sistema operativo libre Linux.';n++;
+preguntas[n]='¿Cuál es la diferencia más importante entre el SO Ubuntu y el SO Windows? ';respuestas[n]='Ubuntu es gratuito y Windows es de pago.';n++;
+preguntas[n]='¿Qué es la terminal en Ubuntu? ';respuestas[n]='Es una ventana donde se escriben órdenes para que el sistema las ejecute.';n++;
+preguntas[n]='¿Cómo se abre la terminal en Ubuntu? ';respuestas[n]='Mediante las teclas Control+Alt+T o desde el menú de aplicaciones.';n++;
+preguntas[n]='¿Qué es un comando? (También llamado orden) ';respuestas[n]='Es una instrucción que el usuario escribe desde la terminal para que el ordenador haga algo.';n++;
+preguntas[n]='¿Qué muestra el símbolo $ en la terminal? ';respuestas[n]='Indica que está lista para recibir un comando.';n++;
+preguntas[n]='¿Qué es el "prompt"? ';respuestas[n]='Es la línea en espera para introducir un comando.';n++;
+preguntas[n]='¿Qué pasa al pulsar INTRO después de escribir un comando? ';respuestas[n]='El sistema ejecuta ese comando.';n++;
+preguntas[n]='¿Cómo hay que escribir los comandos desde la terminal de Ubuntu? ';respuestas[n]='En minúsculas.';n++;
+preguntas[n]='¿Qué pasa si escribes un comando mal? ';respuestas[n]='El sistema muestra un mensaje de error y no hace nada más.';n++;
+preguntas[n]='Cuando entramos a la terminal de Ubuntu ¿cuál es la carpeta actual?  ';respuestas[n]='La carpeta personal.';n++;
+preguntas[n]='¿Qué hace el comando date? ';respuestas[n]='Muestra la fecha y hora del sistema.';n++;
+preguntas[n]='¿Qué hace el comando clear? ';respuestas[n]='Limpia la pantalla de la terminal.';n++;
+preguntas[n]='El comando clear ¿borra archivos o carpetas? ';respuestas[n]='No.';n++;
+preguntas[n]='¿Qué es una ruta? ';respuestas[n]='Es el "camino" que indica dónde está un archivo o carpeta.';n++;
+preguntas[n]='¿Qué hace el comando ls? ';respuestas[n]='Muestra los archivos y carpetas de la carpeta actual.';n++;
+preguntas[n]='Si escribes el comando LS en Ubuntu ¿Qué sucede? (Piensa por qué) ';respuestas[n]='Se muestra un error.';n++;
+preguntas[n]='¿Qué hace el comando cd? ';respuestas[n]='Sirve para cambiar de carpeta.';n++;
+preguntas[n]='¿Qué hace el comando pwd? ';respuestas[n]='Muestra la ruta de la carpeta actual.';n++;
+preguntas[n]='¿Qué hace el comando mkdir? ';respuestas[n]='Crea una nueva carpeta.';n++;
+preguntas[n]='¿Qué hace el comando rmdir? ';respuestas[n]='Borra una carpeta.';n++;
+preguntas[n]='¿Qué es una carpeta o directorio? ';respuestas[n]='Es un lugar donde se guardan archivos y otras carpetas.';n++;
+preguntas[n]='¿Qué hace el comando touch? ';respuestas[n]='Crea un nuevo archivo de texto vacío.';n++;
+preguntas[n]='¿Qué hace el comando echo? (Entre otras cosas) ';respuestas[n]='Añade una nueva línea al contenido de un archivo de texto.';n++;
+preguntas[n]='¿Qué hace el comando cat? ';respuestas[n]='Muestra el contenido de un archivo de texto.';n++;
+preguntas[n]='¿Qué es un archivo? ';respuestas[n]='Es un conjunto de datos guardados, como un documento o una imagen.';n++;
+preguntas[n]='¿Qué hace el comando man? ';respuestas[n]='Muestra el manual de ayuda de cualquier otro comando.';n++;
+preguntas[n]='¿Qué hace el comando shutdown? ';respuestas[n]='Apaga el equipo.';n++;
+preguntas[n]='¿Qué hace el comando exit? ';respuestas[n]='Cierra la terminal.';n++;
+preguntas[n]='¿Qué diferencia hay entre la terminal y el entorno gráfico? ';respuestas[n]='En el entorno gráfico haces clic. En la terminal escribes órdenes.';n++;
+preguntas[n]='¿Por qué se usa la terminal si existen iconos y menús? ';respuestas[n]='Porque a veces es más rápida y permite hacer tareas avanzadas.';n++;
+preguntas[n]='¿Qué significa CLI? ';respuestas[n]='Command Line Interface (Interfaz de Línea de Comandos).';n++;
+preguntas[n]='¿Qué significa GUI? ';respuestas[n]='Graphical User Interface (Interfaz Gráfica de Usuario).';n++;
+preguntas[n]='¿Qué es el historial de comandos de la terminal? ';respuestas[n]='Es la lista de órdenes que se han ejecutado antes.';n++;
+preguntas[n]='¿Cómo se puede volver a un comando ejecutado anteriormente? ';respuestas[n]='Con las flechas ARRIBA y ABAJO del teclado.';n++;
+preguntas[n]='¿Qué ventaja tiene usar la terminal? ';respuestas[n]='Permite hacer tareas rápidamente y con más control.';n++;
+preguntas[n]='¿Existe la terminal también en Windows? ';respuestas[n]='Sí, con otros comandos parecidos pero distintos.';n++;
+preguntas[n]='¿Cómo hay que escribir los comandos desde la terminal de Windows? ';respuestas[n]='Se pueden escribir en mayúsculas o en minúsculas.';n++;
