@@ -1,3 +1,9 @@
+relacion=6; // Es la relación 1 de ejercicios de tipo Decimal-Binario
+
+preguntas=new Array();
+respuestas=new Array();
+n=0;
+
 preguntas[n]='Habitualmente utilizamos un <b>sistema decimal</b> para representar números. ¿Qué significa esto? ';respuestas[n]='Que utilizamos diez posibles valores para cada una de las cifras';n++;
 preguntas[n]='¿Cuáles son los diez posibles valores de cada cifra en el sistema decimal? ';respuestas[n]='0,1,2,3,4,5,6,7,8,9';n++;
 preguntas[n]='¿Qué son los números naturales? ';respuestas[n]='Los números que sirven para contar';n++;
