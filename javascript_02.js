@@ -1,4 +1,5 @@
-relacion=2; // Para mostrar al principio de la página: Relación nº...
+descripcion="PROGRAMACIÓN EN JAVASCRIPT - EJERCICIOS - RELACIÓN Nº 2";
+// Es la relación 2 de ejercicios de Javascript
 
 preguntas=new Array();
 respuestas=new Array();
