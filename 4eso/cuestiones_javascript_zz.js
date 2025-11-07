@@ -1,10 +1,11 @@
-relacion=z; // Para mostrar al principio de la página: Relación nº...
+descripcion="PROGRAMACIÓN EN JAVASCRIPT - EJERCICIOS - RELACIÓN Nº ?";
+// Es la relación ? de ejercicios de Javascript
 
 preguntas=new Array();
 respuestas=new Array();
 n=0;
 
-preguntas[n]='<br>CUESTIONES:<br>Un programa que resuelve una ecuación de segundo grado ¿Cuántos datos de entrada tiene? ';respuestas[n]='3';n++;
+preguntas[n]='<br>CUESTIONES PREVIAS:<br>Un programa que resuelve una ecuación de segundo grado ¿Cuántos datos de entrada tiene? ';respuestas[n]='3';n++;
 preguntas[n]='En las fórmulas matemáticas ¿Cómo se le llama al primero de ellos? ';respuestas[n]='a';n++;
 preguntas[n]='¿Y al segundo? ';respuestas[n]='b';n++;
 preguntas[n]='¿Y al tercero? ';respuestas[n]='c';n++;
