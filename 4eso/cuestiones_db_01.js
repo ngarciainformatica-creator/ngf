@@ -53,7 +53,7 @@ preguntas[n]='Representa en binario el número siguiente al anterior ';respuesta
 preguntas[n]='Representa en binario el número siguiente al anterior ';respuestas[n]='1111';n++;
 preguntas[n]='¿Cuál es el valor decimal equivalente del número binario que has contestado en la respuesta anterior? ';respuestas[n]='15';n++;
 preguntas[n]='¿Cuántos números distintos pueden representarse con cuatro cifras binarias? ';respuestas[n]='16';n++;
-preguntas[n]='<br>Existe un sistema llamado <b>hexadecimal</b> que utiliza 16 dígitos para cada cifra. ¿Cuáles son? ';respuestas[n]='0,1,2,3,4,5,6,7,8,9,A,B,C,D,E,F';n++;
+preguntas[n]='<br>Existe un sistema llamado <b>hexadecimal</b> que utiliza 16 posibles valores para cada cifra. ¿Cuáles son? ';respuestas[n]='0,1,2,3,4,5,6,7,8,9,A,B,C,D,E,F';n++;
 preguntas[n]='¿Cómo sería el número decimal 0 representado en hexadecimal? ';respuestas[n]='0';n++;
 preguntas[n]='¿Cómo sería el número decimal 1 representado en hexadecimal? ';respuestas[n]='1';n++;
 preguntas[n]='¿Cómo sería el número decimal 2 representado en hexadecimal? ';respuestas[n]='2';n++;
