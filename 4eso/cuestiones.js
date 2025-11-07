@@ -1,4 +1,4 @@
-descripcion="TERMINAL DE COMANDOS UBUNTUUUUUUU - EJERCICIOS - RELACIÓN Nº 2";
+descripcion="TERMINAL DE COMANDOS UBUNTU - EJERCICIOS - RELACIÓN Nº 2";
 // Es la relación 2 de ejercicios de comandos Ubuntu
 
 preguntas=new Array();
