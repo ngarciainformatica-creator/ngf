@@ -32,7 +32,7 @@ preguntas[n]='Escribe el resultado de la potencia 2<sup>4</sup> ';respuestas[n]=
 preguntas[n]='Escribe el resultado de la potencia 2<sup>5</sup> ';respuestas[n]='32';n++;
 preguntas[n]='Escribe el resultado de la potencia 2<sup>6</sup> ';respuestas[n]='64';n++;
 preguntas[n]='Escribe el resultado de la potencia 2<sup>7</sup> ';respuestas[n]='128';n++;
-preguntas[n]='Escribe el resultado de la potencia 2<sup>7</sup> ';respuestas[n]='256';n++;
+preguntas[n]='Escribe el resultado de la potencia 2<sup>8</sup> ';respuestas[n]='256';n++;
 preguntas[n]='En general, si 2 elevado a n es x ¿Cuánto es 2 elevado a n+1? ';respuestas[n]='x*2';n++;
 preguntas[n]='Escribe la descomposición binaria completa del número binario 101, incluyendo todas las potencias y bits, y muestra el resultado decimal correspondiente ';respuestas[n]='1*4+0*2+1*1=5';n++;
 preguntas[n]='Escribe la descomposición binaria completa del número binario 111010, incluyendo todas las potencias y bits, y muestra el resultado decimal correspondiente ';respuestas[n]='1*32+1*16+1*8+0*4+1*2+0*1=58';n++;
