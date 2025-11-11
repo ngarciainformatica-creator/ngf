@@ -37,7 +37,7 @@ preguntas[n]='En general, si 2 elevado a n es x ¿Cuánto es 2 elevado a n+1? ';
 preguntas[n]='Escribe la descomposición binaria completa del número binario 101, incluyendo todas las potencias y bits, y muestra el resultado decimal correspondiente ';respuestas[n]='1*4+0*2+1*1=5';n++;
 preguntas[n]='Escribe la descomposición binaria completa del número binario 111010, incluyendo todas las potencias y bits, y muestra el resultado decimal correspondiente ';respuestas[n]='1*32+1*16+1*8+0*4+1*2+0*1=58';n++;
 preguntas[n]='Repite el ejercicio anterior escribiendo sólo lo mínimo, sin indicar ya los bits (sólo las potencias de dos que deben sumarse) ';respuestas[n]='32+16+8+2=58';n++;
-preguntas[n]='<b>Los ejercicios restantes debes hacerlos de la misma forma que el último</b><br>Deduce el valor decimal del número binario 111 ';respuestas[n]='4+2+1=7';n++;
+preguntas[n]='<b>Los ejercicios restantes debes hacerlos de la misma forma que el último</b><br>Deduce el valor decimal del número binario 110 ';respuestas[n]='4+2=6';n++;
 preguntas[n]='Deduce el valor decimal del número binario 111 ';respuestas[n]='4+2+1=7';n++;
 preguntas[n]='Deduce el valor decimal del número binario 1010 ';respuestas[n]='8+2=10';n++;
 preguntas[n]='Deduce el valor decimal del número binario 10001 ';respuestas[n]='16+1=17';n++;
