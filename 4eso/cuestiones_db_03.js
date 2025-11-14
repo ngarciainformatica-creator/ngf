@@ -1,5 +1,5 @@
-descripcion="REPRESENTACIÓN INTERNA EN DISPOSITIVOS DIGITALES - EJERCICIOS Y CUESTIONES - RELACIÓN Nº 3";
-// Es la relación 3 de ejercicios de tipo Decimal-Binario, concepto de byte, múltiplos, etc.
+descripcion="REPRESENTACIÓN INTERNA EN DISPOSITIVOS DIGITALES - EJERCICIOS Y CUESTIONES - RELACIÓN Nº 5";
+// Es la relación 5 de ejercicios de tipo Decimal-Binario, concepto de byte, múltiplos, etc.
 // Paso de decimal a binario (divisiones entre 2)
 
 preguntas=new Array();
