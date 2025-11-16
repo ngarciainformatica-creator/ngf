@@ -1,4 +1,4 @@
-descripcion="ATAJOS DE TECLADO EN WINDOWS - RELACIÓN Nº 3: Atajos del Explorador de Archivos";
+descripcion="ATAJOS DE TECLADO EN WINDOWS - RELACIÓN Nº 3: Atajos del Explorador de Archivos (algunos de ellos muy genéricos)";
 // Es la relación 3 de atajos Windows
 
 preguntas=new Array();
@@ -20,6 +20,8 @@ preguntas[n]='Pegar ';respuestas[n]='Control + V';n++;
 preguntas[n]='Copiar ruta del archivo ';respuestas[n]='Control + Mayus + C';n++;
 preguntas[n]='Eliminar archivo o carpeta ';respuestas[n]='Supr';n++;
 preguntas[n]='Eliminar permanentemente ';respuestas[n]='Mayus + Supr';n++;
+preguntas[n]='Deshacer la última acción ';respuestas[n]='Control + Z';n++;
+preguntas[n]='Rehacer la última acción ';respuestas[n]='Control + Y';n++;
 preguntas[n]='Renombrar archivo o carpeta ';respuestas[n]='F2';n++;
 preguntas[n]='Crear nueva carpeta ';respuestas[n]='Control + Mayus + N';n++;
 preguntas[n]='Actualizar ventana ';respuestas[n]='F5';n++;
