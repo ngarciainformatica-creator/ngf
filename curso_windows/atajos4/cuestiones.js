@@ -1,4 +1,4 @@
-descripcion="ATAJOS DE TECLADO EN WINDOWS - EJERCICIOS Y CUESTIONES - RELACIÓN Nº 4";
+descripcion="ATAJOS DE TECLADO EN WINDOWS - RELACIÓN Nº 4: Atajos del navegador";
 // Es la relación 4 de atajos Windows
 
 preguntas=new Array();
