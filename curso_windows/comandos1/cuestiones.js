@@ -7,7 +7,7 @@ n=0;
 
 preguntas[n]='Comando para acceder a la consola de Windows (desde fuera) ';respuestas[n]='cmd';n++;
 preguntas[n]='Una vez dentro de la consola, ejecuta el comando anterior. ¿A qué otro comado se parece? ';respuestas[n]='ver';n++;
-preguntas[n]='Atajo para maximizar / restaurar el tamaño de la consola abierta (no es maximizar la ventana) ';respuestas[n]='Alt + Enter';n++;
+preguntas[n]='Atajo para maximizar / restaurar el tamaño de la consola abierta (no es maximizar la ventana) ';respuestas[n]='Alt + Intro';n++;
 preguntas[n]='Limpiar la pantalla ';respuestas[n]='cls';n++;
 preguntas[n]='Salir de la consola ';respuestas[n]='exit';n++;
 preguntas[n]='Mostrar la fecha ';respuestas[n]='date';n++;
@@ -22,7 +22,7 @@ preguntas[n]='Cambiar a una subcarpeta llamada <b>mis apuntes</b> que se encuent
 preguntas[n]='Mostrar la versión de Windows (una vez dentro de la consola) ';respuestas[n]='cmd';n++;
 preguntas[n]='Listar archivos y carpetas del directorio actual ';respuestas[n]='dir';n++;
 preguntas[n]='Listar archivos por pantallas ';respuestas[n]='dir /p';n++;
-preguntas[n]='Listar archivos en formato ancho ';respuestas[n]='dir /w';n++;
+preguntas[n]='Listar archivos en formato ancho (directorios entre corchetes) ';respuestas[n]='dir /w';n++;
 preguntas[n]='Listar sólo nombres de archivos ';respuestas[n]='dir /b';n++;
 preguntas[n]='Listar todos los archivos incluyendo subcarpetas ';respuestas[n]='dir /s';n++;
 preguntas[n]='Atajo para cancelar la ejecución de un comando (como el anterior) ';respuestas[n]='Ctrl + C';n++;
