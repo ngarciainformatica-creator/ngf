@@ -1,4 +1,4 @@
-descripcion="ATAJOS DE TECLADO EN WINDOWS - RELACIÓN Nº 1 - ATAJOS DEL SISTEMA";
+descripcion="ATAJOS DE TECLADO EN WINDOWS - RELACIÓN Nº 1: ATAJOS DEL SISTEMA";
 // Es la relación 1 de atajos Windows
 
 preguntas=new Array();
