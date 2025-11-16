@@ -1,4 +1,4 @@
-descripcion="ATAJOS DE TECLADO EN WINDOWS - RELACIÓN Nº 3: Atajos del Explorador de Archivos (algunos de ellos muy genéricos)";
+descripcion="ATAJOS DE TECLADO EN WINDOWS - RELACIÓN Nº 3: Atajos del Explorador de Archivos y algunos de uso muy frecuente";
 // Es la relación 3 de atajos Windows
 
 preguntas=new Array();
