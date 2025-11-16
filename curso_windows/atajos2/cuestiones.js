@@ -1,4 +1,4 @@
-descripcion="ATAJOS DE TECLADO EN WINDOWS - EJERCICIOS Y CUESTIONES - RELACIÓN Nº 2";
+descripcion="ATAJOS DE TECLADO EN WINDOWS - RELACIÓN Nº 2: Atajos de Ventanas";
 // Es la relación 2 de atajos Windows
 
 preguntas=new Array();
