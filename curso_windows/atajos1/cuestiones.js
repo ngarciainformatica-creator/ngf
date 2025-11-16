@@ -33,5 +33,5 @@ preguntas[n]='Abrir Centro de notificaciones ';respuestas[n]='Windows + A';n++;
 preguntas[n]='Abrir Centro de accesibilidad ';respuestas[n]='Windows + U';n++;
 preguntas[n]='Buscar en Windows ';respuestas[n]='Windows + S';n++;
 preguntas[n]='Abrir Portapapeles de Windows (Requiere activarlo) ';respuestas[n]='Windows + V';n++;
-preguntas[n]='Acceder a tareas importantes en caso de problemas ';respuestas[n]='Control + Alt + Del';n++;
+preguntas[n]='Acceder a tareas importantes en caso de problemas ';respuestas[n]='Control + Alt + Supr';n++;
 preguntas[n]='Alternar entre ventanas de la misma aplicación ';respuestas[n]='Control + Tab';n++;
