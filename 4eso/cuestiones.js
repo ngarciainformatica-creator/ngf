@@ -12,7 +12,7 @@ preguntas[n]='¿Por qué se usan múltiplos del byte? ';respuestas[n]='Para medi
 preguntas[n]='¿Cuántos bytes tiene 1 KB? ';respuestas[n]='1 KB tiene 1024 bytes';n++;
 preguntas[n]='¿Qué significa “kilo” en informática? ';respuestas[n]='Significa 1024, no 1000';n++;
 preguntas[n]='¿3 KB son 3000 bytes? ';respuestas[n]='No, 3 KB=3*1024=3072 bytes';n++;
-preguntas[n]='¿Cuántos KB tiene 1 MB? ';respuestas[n]='1 MB tiene 1024 KB.';n++;
+preguntas[n]='¿Cuántos KB tiene 1 MB? ';respuestas[n]='1 MB tiene 1024 KB';n++;
 preguntas[n]='¿1 MB es un millón de bytes? ';respuestas[n]='No exactamente, es 1048576 bytes';n++;
 preguntas[n]='¿Cuántos MB tiene 1 GB? ';respuestas[n]='1 GB tiene 1024 MB';n++;
 preguntas[n]='¿Por qué se usa 1024 y no 1000 en Informática? ';respuestas[n]='Porque 1024 es 2 elevado a 10';n++;
