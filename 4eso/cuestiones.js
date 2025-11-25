@@ -30,7 +30,7 @@ preguntas[n]='Escribe el número total de fotos que se pueden almacenar (el resu
 preguntas[n]='<br><b>PROBLEMA 2:</b><br>¿Cuál es la unidad de almacenamiento más grande que aparece en el problema? ';respuestas[n]='GB';n++;
 preguntas[n]='¿Cuál es la unidad de almacenamiento más pequeña que aparece en el problema? ';respuestas[n]='MB';n++;
 preguntas[n]='Convierte el tamaño de la tarjeta SD a MB (Escribe directamente el resultado) ';respuestas[n]='8192';n++;
-preguntas[n]='Escribe la operación que permite calcular cuántas canciones caben en la tarjeta (ya todo en las mismas unidades) ';respuestas[n]='2298199';n++;
+preguntas[n]='Escribe la operación que permite calcular cuántas canciones caben en la tarjeta (ya todo en las mismas unidades) ';respuestas[n]='8192/4';n++;
 preguntas[n]='Escribe el número total de canciones que se pueden almacenar (el resultado de la operación anterior) ';respuestas[n]='2048';n++;
 preguntas[n]='<br><b>PROBLEMA 3:</b><br>¿Cuál es la unidad de almacenamiento más grande que aparece en el problema? ';respuestas[n]='GB';n++;
 preguntas[n]='¿Cuál es la unidad de almacenamiento más pequeña que aparece en el problema? ';respuestas[n]='KB';n++;
@@ -50,7 +50,7 @@ preguntas[n]='Escribe el número total de fotos que se pueden almacenar (el resu
 preguntas[n]='<br><b>PROBLEMA 6:</b><br>¿Cuál es la unidad de almacenamiento más grande que aparece en el problema? ';respuestas[n]='TB';n++;
 preguntas[n]='¿Cuál es la unidad de almacenamiento más pequeña que aparece en el problema? ';respuestas[n]='GB';n++;
 preguntas[n]='Convierte el tamaño del disco duro a GB (Escribe directamente el resultado) ';respuestas[n]='1024';n++;
-preguntas[n]='Escribe la operación que permite calcular cuántos archivos caben en el disco (ya todo en las mismas unidades) ';respuestas[n]='-319920';n++;
+preguntas[n]='Escribe la operación que permite calcular cuántos archivos caben en el disco (ya todo en las mismas unidades) ';respuestas[n]='1024/2';n++;
 preguntas[n]='Escribe el número total de archivos que se pueden almacenar (el resultado de la operación anterior) ';respuestas[n]='512';n++;
 preguntas[n]='<br><b>PROBLEMA 7:</b><br>¿Cuál es la unidad de almacenamiento más grande que aparece en el problema? ';respuestas[n]='TB';n++;
 preguntas[n]='¿Cuál es la unidad de almacenamiento más pequeña que aparece en el problema? ';respuestas[n]='MB';n++;
