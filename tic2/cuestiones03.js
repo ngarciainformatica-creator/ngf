@@ -1,4 +1,4 @@
-relacion=3; // Para mostrar al principio de la página: Relación nº...
+descripcion="PROGRAMACIÓN BÁSICA EN JAVASCRIPT - EJERCICIOS Y CUESTIONES - RELACIÓN Nº 3";
 
 preguntas=new Array();
 respuestas=new Array();
