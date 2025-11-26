@@ -7,7 +7,7 @@ n=0;
 preguntas[n]='Mostrar un mensaje "Hola" en una ventana emergente ';respuestas[n]='alert("Hola")';n++;	
 //preguntas[n]='Mostrar un mensaje en varias líneas: "Hola" y "¿Qué tal?" ';respuestas[n]='alert("Hola\n¿Qué tal?")';n++;	
 preguntas[n]='Preguntar al usuario ¿Cómo te llamas? y guardar la respuesta en una variable llamada nombre ';respuestas[n]='nombre=prompt("¿Cómo te llamas?")';n++;	
-preguntas[n]='Mostrar un saludo usando el nombre del usuario ';respuestas[n]='alert("Hola "+nombre)';n++;	
+preguntas[n]='Mostrar un saludo "Hola" seguido del nombre del usuario anterior ';respuestas[n]='alert("Hola "+nombre)';n++;	
 preguntas[n]='Obtener la longitud de la cadena nombre y guardarla en una variable llamada n ';respuestas[n]='n=nombre.length';n++;	
 preguntas[n]='Guardar el primer carácter de nombre en una variable llamada caracter ';respuestas[n]='caracter=nombre[0]';n++;	
 preguntas[n]='Guardar el segundo carácter de nombre en caracter ';respuestas[n]='caracter=nombre[1]';n++;	
