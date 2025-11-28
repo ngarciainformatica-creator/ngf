@@ -66,5 +66,5 @@ preguntas[n]='¿De qué tipo es el tercer campo? ';respuestas[n]='Número';n++;
 preguntas[n]='¿Cuántos bytes ocupa? ';respuestas[n]='1';n++;
 preguntas[n]='¿Cuántos bytes ocupa cada registro completo de esta tabla? ';respuestas[n]='41';n++;
 preguntas[n]='¿Cuántos bytes ocupa la tabla completa, con todos sus registros? ';respuestas[n]='492';n++;
-preguntas[n]='Escribe la operación que permite hallar la cantidad anterior en kilobytes (KB) ';respuestas[n]='552/1024';n++;
+preguntas[n]='Escribe la operación que permite hallar la cantidad anterior en kilobytes (KB) ';respuestas[n]='492/1024';n++;
 preguntas[n]='Escribe dicha cantidad (dos decimales) ';respuestas[n]='0.48';n++;
