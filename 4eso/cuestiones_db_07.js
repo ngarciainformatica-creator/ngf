@@ -13,7 +13,7 @@ preguntas[n]='Las cifras numéricas ¿Son caracteres? ';respuestas[n]='Sí';n++;
 preguntas[n]='¿Y los espacios en blanco? ';respuestas[n]='Sí';n++;
 preguntas[n]='¿Y los puntos, comas, paréntesis, etc? ';respuestas[n]='Sí';n++;
 preguntas[n]='¿Cómo se llama el código que asocia cada carácter a un número? ';respuestas[n]='ASCII';n++;
-preguntas[n]='El código de una letra mayúscula ¿es el mismo que el de esa misma letra minúscula? ';respuestas[n]='No';n++;
+preguntas[n]='El código ASCII de una letra mayúscula ¿es el mismo que el de esa misma letra minúscula? ';respuestas[n]='No';n++;
 preguntas[n]='¿Cuál es el código del espacio en blanco? ';respuestas[n]='32';n++;
 preguntas[n]='¿Cómo es el bit binario correspondiente? ';respuestas[n]='0010 0000';n++;
 preguntas[n]='¿Cuál es el código ASCII del carácter 0? ';respuestas[n]='48';n++;
