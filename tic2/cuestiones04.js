@@ -9,8 +9,8 @@ preguntas[n]='Preguntar al usuario ¿Cuántos años tienes? y guardar el dato in
 preguntas[n]='Hacer lo mismo que lo anterior considerando ahora que la edad se ha introducido en un objeto INPUT cuyo ID es entrada1 ';respuestas[n]='edad=1*entrada1.value;';n++;
 preguntas[n]='Mostrar un mensaje emergente diciendo "Tienes X años", usando la variable edad ';respuestas[n]='alert("Tienes "+edad+" años");';n++;
 preguntas[n]='Mostrar el mismo mensaje anterior pero en este caso enviado a la misma página, forzando un salto de línea final ';respuestas[n]='document.write("Tienes "+edad+" años<br>");';n++;
-preguntas[n]='Preguntar al usuario ¿Cómo te llamas? y guardarlo en una variable llamada nombre ';respuestas[n]='nombre=prompt("¿Cómo te llamas?")';n++;
-preguntas[n]='Hacer lo mismo que lo anterior considerando ahora que el nombre se ha escrito en un objeto INPUT cuyo ID es entrada2 ';respuestas[n]='nombre=1*entrada2.value;';n++;
+preguntas[n]='Preguntar al usuario ¿Cómo te llamas? y guardarlo en una variable llamada nombre ';respuestas[n]='nombre=prompt("¿Cómo te llamas?");';n++;
+preguntas[n]='Hacer lo mismo que lo anterior considerando ahora que el nombre se ha escrito en un objeto INPUT cuyo ID es entrada2 ';respuestas[n]='nombre=entrada2.value;';n++;
 preguntas[n]='Guardar en una variable longitudNombre la longitud de la cadena que representa el nombre ';respuestas[n]='longitudNombre=nombre.length;';n++;
 preguntas[n]='Guardar la primera letra del nombre en una variable llamada primeraLetra ';respuestas[n]='primeraLetra=nombre[0];';n++;
 preguntas[n]='Guardar la última letra del nombre en una variable llamada ultimaLetra ';respuestas[n]='ultimaLetra=nombre[longitudNombre-1];';n++;
@@ -18,8 +18,8 @@ preguntas[n]='Preguntar al usuario ¿En qué ciudad naciste? y guardar la respue
 preguntas[n]='Convertir el nombre de la ciudad a mayúsculas ';respuestas[n]='ciudad=ciudad.toUpperCase();';n++;
 preguntas[n]='Convertir el nombre de la ciudad a minúsculas ';respuestas[n]='ciudad=ciudad.toLowerCase();';n++;
 preguntas[n]='Eliminar espacios al inicio y al final de la variable ciudad ';respuestas[n]='ciudad=ciudad.trim();';n++;
-preguntas[n]='Crear una variable mensaje que combine "Hola", el nombre y la ciudad, separadas por comas y dejando un espacio después de cada coma ';respuestas[n]='mensaje="Hola, "+edad+", "+ciudad;';n++;
-preguntas[n]='Mostrar el mensaje anterior en una ventana emergente ';respuestas[n]='alert(mensaje);';n++;
+preguntas[n]='Crear una variable llamada mensaje que combine "Hola", el nombre y la ciudad, separadas por comas y dejando un espacio después de cada coma ';respuestas[n]='mensaje="Hola, "+nombre+", "+ciudad;';n++;
+preguntas[n]='Mostrar el valor de la variable anterior en una ventana emergente ';respuestas[n]='alert(mensaje);';n++;
 preguntas[n]='Mostrar el mensaje anterior enviado a la propia página, forzando un salto final de línea ';respuestas[n]='document.write(mensaje+"<br>");';n++;
 preguntas[n]='Preguntar al usuario Dime un número y guardarlo en una variable llamada num1 ';respuestas[n]='num1=1*prompt("Dime un número");';n++;
 preguntas[n]='Preguntar al usuario Dime otro número y guardarlo en una variable llamada num2 ';respuestas[n]='num2=1*prompt("Dime otro número");';n++;
@@ -33,13 +33,13 @@ preguntas[n]='Elevar num1 a la potencia num2 y guardarlo en una variable llamada
 preguntas[n]='Generar un número aleatorio en el intervalo [0,1) y guardarlo en una variable llamada rand ';respuestas[n]='rand=Math.random();';n++;
 preguntas[n]='Generar un número aleatorio (con decimales) en el intervalo [0,50) y guardarlo en rand ';respuestas[n]='rand=50*Math.random();';n++;
 preguntas[n]='Generar un número entero aleatorio entre 1 y 50 y guardarlo en rand ';respuestas[n]='rand=1+parseInt(50*Math.random());';n++;
-preguntas[n]='Generar un número entero aleatorio entre 1 y 2 y guardarlo en una variable llamada moneda ';respuestas[n]='moneda=parseInt(2*Math.random());';n++;
+preguntas[n]='Generar un número entero aleatorio entre 0 y 1 y guardarlo en una variable llamada moneda ';respuestas[n]='moneda=parseInt(2*Math.random());';n++;
 preguntas[n]='Mostrar "Cara" o "Cruz" dependiendo del valor obtenido en la sentencia anterior (dos sentencias en la misma línea) ';respuestas[n]='if(moneda==0) alert("Cara");else alert("Cruz");';n++;
 preguntas[n]='Repetir lo anterior en una sola sentencia ';respuestas[n]='if(moneda==0) {alert("Cara")} else {alert("Cruz")};';n++;
 preguntas[n]='Preguntar al usuario "Dime tu nota de examen" y guardarla en una variable llamada notaExamen ';respuestas[n]='notaExamen=1*prompt("Dime tu nota de examen");';n++;
 preguntas[n]='Mostrar ventana emergente "Aprobado" o "Suspenso" dependiendo de dicha nota (dos sentencias en la misma línea) ';respuestas[n]='if(notaExamen>=5) alert("Aprobado");else alert("Suspenso");';n++;
 preguntas[n]='Repetir lo anterior en una sola sentencia ';respuestas[n]='if(notaExamen>=5) {alert("Aprobado")} else {alert("Suspenso")};';n++;
-preguntas[n]='Preguntar al usuario su bebida favorita y guardarla en una variable llamada bebida ';respuestas[n]='bebida=prompt("¿Cuál es tu bebida favorita?");';n++;
+preguntas[n]='Preguntar al usuario ¿Cuál es tu bebida favorita? y guardarla en una variable llamada bebida ';respuestas[n]='bebida=prompt("¿Cuál es tu bebida favorita?");';n++;
 preguntas[n]='Mostrar un mensaje que diga "Tu bebida favorita es X", usando la variable bebida de la línea anterior ';respuestas[n]='alert("Tu bebida favorita es "+bebida);';n++;
 preguntas[n]='Preguntar al usuario una palabra (variable palabra1) ';respuestas[n]='palabra1=prompt("Dime una palabra");';n++;
 preguntas[n]='Preguntar al usuario otra palabra (variable palabra2) ';respuestas[n]='palabra2=prompt("Dime otra palabra");';n++;
