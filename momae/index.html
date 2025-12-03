@@ -1,6 +1,6 @@
 <meta charset="utf-8">
 
-<script src="cuestiones.js"> </script>
+<script src="cuestiones02.js"> </script>
 
 <!Hay un array llamado preguntas y otro llamado respuestas, ambos de longitud n>
 <script>
@@ -56,12 +56,12 @@
 		else
 			{
 			document.write("<br>"+preguntas[contador]+"<br> Respuesta: "); 
-			document.write("<input type=text class=cajasRespuesta> ");
+			document.write("<input type=text class=cajasRespuesta onkeydown='tecla()'> ");
 			document.write("<input type=button class=botonesComprobar value='Comprobar' onclick='comprobar()'> ");
 			}
 		}
 	//----------------------------------------------
-	function comprobar(x)
+	function comprobar()
 		{
 		//alert("Comprobando...") //Funciona
 		tusRespuestas=document.querySelectorAll(".cajasRespuesta");
@@ -86,6 +86,13 @@
 			//alert("Mal");
 			tusRespuestas[contador].style.background="pink";
 			}
+		}
+	//----------------------------------------------
+	function tecla()
+		{
+		//alert("Has pulsado una tecla")
+		if(event.keyCode==13)
+			{comprobar()}
 		}
 	//----------------------------------------------
 	
