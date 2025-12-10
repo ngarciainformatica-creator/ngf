@@ -14,10 +14,10 @@ preguntas[n]='Mostrar, dependiendo de las tres variables anteriores, el texto em
 preguntas[n]='Una variable llamada resto toma el resto de la división de a entre b (variables anteriores) ';respuestas[n]='resto=a%b';n++;
 preguntas[n]='Mostrar, dependiendo de las variables anteriores, el texto emergente que ves en la pizarra ';respuestas[n]='alert("El resto de dividir "+a+" entre "+b+" es "+resto)';n++;
 preguntas[n]='Repetir el mensaje anterior directamente en la página, sin ventaba emergente ';respuestas[n]='document.write("El resto de dividir "+a+" entre "+b+" es "+resto)';n++;
-preguntas[n]='Código para mostrar, dependiendo del texto anterior, uno de los dos textos emergentes que ves en la pizarra (no usar punto y coma, usar llaves) ';respuestas[n]='if(resto==0){alert(a+" ES múltiplo de "+b)}else{alert(a+" NO es múltiplo de "+b)}';n++;
+preguntas[n]='Código para mostrar, dependiendo del resto anterior, uno de los dos textos emergentes que ves en la pizarra (no usar punto y coma, usar llaves) ';respuestas[n]='if(resto==0){alert(a+" ES múltiplo de "+b)}else{alert(a+" NO es múltiplo de "+b)}';n++;
 preguntas[n]='Bucle for para repetir un código 100 veces, con una variable i que va tomando valores a partir del cero. Preguntar al profesor. ';respuestas[n]='for(i=0;i<100;i=i+1){//Código}';n++;
 preguntas[n]='Repetir el código anterior con autoincremento de i (así lo haremos a partir de ahora) ';respuestas[n]='for(i=0;i<100;i++){//Código}';n++;
-preguntas[n]='Bucle for para repetir un código n veces, con una variable i que va tomando valores desde 99 ';respuestas[n]='for(i=99;i>=0;i=i-1){//Código}';n++;
+preguntas[n]='Bucle for para repetir un código 100 veces, con una variable i que va tomando valores desde 99 hasta 0 ';respuestas[n]='for(i=99;i>=0;i=i-1){//Código}';n++;
 preguntas[n]='Repetir el código anterior con autodecremento de i (así lo haremos a partir de ahora) ';respuestas[n]='for(i=99;i>=0;i--){//Código}';n++;
 preguntas[n]='Bucle while para repetir un código mientras una variable llamada texto sea distinto de FIN ';respuestas[n]='while(texto!="FIN"){//Código}';n++;
 preguntas[n]='Repetir el código anterior para que el bucle finalice cuando el valor sea FIN, Fin, fin, fiN, etc.  ';respuestas[n]='while(texto.toUpperCase()!="FIN"){//Código}';n++;
@@ -34,7 +34,7 @@ preguntas[n]='Definir un array vacío llamado instituto ';respuestas[n]='institu
 preguntas[n]='Suponiendo que instituto ha sido rellenado con los nombres de todos los estudiantes, definir una variable n que toma la cantidad total de elementos. ';respuestas[n]='n=instituto.length';n++;
 preguntas[n]='Usando la variable anterior, escribe el código para mostrar todos los alumnos/as, cada uno de ellos en ventana emergente (Del primero al último) ';respuestas[n]='for(i=0;i<n;i++){alert(instituto[i])}';n++;
 preguntas[n]='Repite el código anterior para mostrarlos en la página sin ventanas emergentes, dejando un salto de línea detrás de cada nombre ';respuestas[n]='for(i=0;i<n;i++){document.write(instituto[i]+"<br>")}';n++;
-preguntas[n]='Repite el código anterior para mostrarlos en orden inverso (del último al primero) ';respuestas[n]='for(i=n-1;i>=0;i--){document.write(instituto[i]+"<br>")}';n++;
+preguntas[n]='Repite el código anterior para mostrarlos en orden inverso (del último al primero). Utiliza la variable n. ';respuestas[n]='for(i=n-1;i>=0;i--){document.write(instituto[i]+"<br>")}';n++;
 preguntas[n]='Buscar el alumno llamado Natalio (es un texto, no una variable) en el array anterior, hallar la posición que ocupa en una variable llamada pos ';respuestas[n]='pos=instituto.indexOf("Natalio")';n++;
 preguntas[n]='En la búsqueda anterior ¿Qué valor toma pos si no existe dicho alumno en el array? ';respuestas[n]='-1';n++;
 preguntas[n]='Si en el array hay varios elementos con el mismo texto buscado ¿Qué valor tomaría pos en la búsqueda anterior? (Pregunta a tu profesor) ';respuestas[n]='La posición del primero que encuentre';n++;
@@ -42,5 +42,5 @@ preguntas[n]='Una variable llamada cadena toma un texto introducido en un objeto
 preguntas[n]='Quitar los espacios laterales de la cadena del ejercicio anterior ';respuestas[n]='cadena=cadena.trim()';n++;
 preguntas[n]='Definir un array llamado conjunto que tome tantos elementos como textos separados mediante comas contenga la cadena anterior ';respuestas[n]='conjunto=cadena.split(",")';n++;
 preguntas[n]='Definir una variable n que calcule la cantidad de elementos del array creado en el ejercicio anterior ';respuestas[n]='n=conjunto.length';n++;
-preguntas[n]='Código para quitar los espacios laterales de cada uno de los elementos del array anterior (conjunto). Utiliza un bucle for creciente, variable i ';respuestas[n]='for(i=0;i<n;i++){conjunto[i]=conjunto[i].trim()}';n++;
+preguntas[n]='Código para quitar los espacios laterales de cada uno de los elementos del array anterior (conjunto). Utiliza un bucle for creciente, variable i. Utiliza también la variable n. ';respuestas[n]='for(i=0;i<n;i++){conjunto[i]=conjunto[i].trim()}';n++;
 preguntas[n]='Código para mostrar en ventanas emergentes cada uno de los elementos del conjunto anterior y el número de caracteres de cada uno de ellos (Dos sentencias en el interior del bucle for) ';respuestas[n]='for(i=0;i<n;i++){alert(conjunto[i]);alert(conjunto[i].length)}';n++;
