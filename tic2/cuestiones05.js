@@ -4,7 +4,7 @@ preguntas=new Array();
 respuestas=new Array();
 n=0;
 
-preguntas[n]='1. Una variable llamada x toma un valor introducido por el usuario en ventana emergente (Dime un número) ';respuestas[n]='x=1*prompt("Dime un número")';n++;
+preguntas[n]='Una variable llamada x toma un valor introducido por el usuario en ventana emergente (Dime un número) ';respuestas[n]='x=1*prompt("Dime un número")';n++;
 preguntas[n]='Código para mostrar el texto emergente Positivo o Negativo dependiendo del valor de x (no usar punto y coma, usar llaves) ';respuestas[n]='if(x>=0){alert("Positivo")}else{alert("Negativo")}';n++;
 preguntas[n]='Repetir el código anterior para que ejecute exactamente lo mismo usando la condición inversa ';respuestas[n]='if(x<0){alert("Negativo")}else{alert("Positivo")}';n++;
 preguntas[n]='Una variable llamada a toma el valor numérico de un objeto INPUT cuyo ID es entrada1 ';respuestas[n]='a=1*entrada1.value';n++;
