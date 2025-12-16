@@ -19,7 +19,7 @@ preguntas[n]='Escribe el atajo de teclado correspondiente a la operación anteri
 preguntas[n]='El lienzo de un archivo BMP tiene una anchura de 300 píxeles y una altura de 400 píxeles. ¿Cuántos píxeles en total contiene el dibujo? ';respuestas[n]='120000';n++;
 preguntas[n]='¿Cuantos bytes ocupa en disco el archivo correspondiente? ';respuestas[n]='360000';n++;
 preguntas[n]='Escribe dicha cantidad expresada en KB con dos decimales. ';respuestas[n]='351.56';n++;
-preguntas[n]='¿Qué es RGB? ';respuestas[n]='Un formato para definir el código de cada color a partir de los tres colores primarios';n++;
+preguntas[n]='¿Qué es RGB? ';respuestas[n]='Es un formato que representa cada color mediante un código de tres bytes';n++;
 preguntas[n]='Escribe el código RGB del negro (tres números en formato decimal) ';respuestas[n]='RGB(0,0,0)';n++;
 preguntas[n]='Escribe el código del negro en formato hexadecimal (seis cifras) ';respuestas[n]='#000000';n++;
 preguntas[n]='Escribe el código del negro en binario (24 bits separados en cuartetos) ';respuestas[n]='0000 0000 0000 0000 0000 0000';n++;
