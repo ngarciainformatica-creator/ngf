@@ -1,4 +1,4 @@
-descripcion="PROGRAMACIÓN BÁSICA EN JAVASCRIPT - EJERCICIOS Y CUESTIONES - RELACIÓN Nº 6";
+descripcion="PROGRAMACIÓN BÁSICA EN JAVASCRIPT - EJERCICIOS Y CUESTIONES - RELACIÓN Nº 6 (Mosaico para colorear)";
 
 preguntas=new Array();
 respuestas=new Array();
